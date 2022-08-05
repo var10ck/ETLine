@@ -2,7 +2,7 @@
 **Проект, созданный в рамках Data Hack 2022, case #3.** 
 
 ## Структура JSON конфига
-```json lines
+```json5
 { // Config
   tasks: [
     {
