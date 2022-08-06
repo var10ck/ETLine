@@ -54,12 +54,12 @@
         "writeOptions": {
           "key": "value"
         }
-      },
-      "sparkSessionConf": {
-        "key": "value"
       }
     }
-  ]
+  ],
+  "sparkSessionConf": {
+    "key": "value"
+  }
 }
 
 ```

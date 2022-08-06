@@ -2,44 +2,32 @@
   "tasks": [
     {
       "saveMode": "Overwrite",
-      "batchLoad": {
-        "byColumn": "string",
-        "partitionBy": "string",
-        "interval": "string"
-      },
       "source": {
-        "connectionId": "string",
-        "tables": [
+        "connectionId": "localData",
+        "files": [
           {
-            "name": "string",
-            "columns": [
-              "string"
-            ],
-            "hwmColumnName": "string"
+            "path": "data4test.csv",
+            "hwmColumnName": "string",
+            "targetName": "testDataToLoad.csv",
+            "readOptions": {
+              "delimiter":  ";"
+            }
           }
         ]
       },
-      "fileSource": {
-        "path":"string",
-        "readOptions": {
-          "key": "value"
-        }
-      },
       "target": {
-        "connectionId": "string",
-        "format": "string",
-        "path": "string",
+        "connectionId": "localData",
+        "format": "csv",
+        "path": "target",
         "writeOptions": {
-          "key0": "value0",
-          "key1": "value1",
-          "key2": "value2"
+          "delimiter": "|",
+          "encoding": "UTF-8"
         }
-      },
-      "sparkSessionConf": {
-        "key0": "value0",
-        "key1": "value1",
-        "key2": "value2"
       }
     }
-  ]
+  ],
+  "sparkSessionConf": {
+    "spark.master": "local[*]",
+    "spark.app.name": "ETLine test run"
+  }
 }

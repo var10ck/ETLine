@@ -2,7 +2,8 @@ package com.etline.engine.IO
 
 import com.etline.config.{ConnectionStore, DbSource, FileSource, Parser}
 import com.etline.config.Parser.Task
-import com.etline.config.datatypes.{connection, TableToWrite}
+import com.etline.config.datatypes.connection
+import com.etline.engine.dataTypes.TableToWrite
 import org.apache.spark.sql.{DataFrame, SparkSession}
 
 object Reader {

@@ -3,21 +3,18 @@ package com.etline.config
 import io.circe._
 import io.circe.generic.auto._
 import io.circe.parser._
-
+import com.etline.config.SourceDecoder._
 import java.net.URI
 import scala.io.BufferedSource
 
 object Parser {
-  case class Config(tasks: List[Task])
+  case class Config(tasks: List[Task], sparkSessionConf: Map[String, String])
 
   case class Task(
       saveMode: String,
-      batchLoad: Option[BatchLoad],
       source: Source,
-      target: DataTarget,
-      sparkSessionConf: Map[String, String]
+      target: DataTarget
   )
-
 
   case class DataTarget(connectionId: String,
                         format: String,
@@ -35,7 +32,4 @@ object Parser {
   }
 
   def fromSource(uri: URI): Either[Error, Config] = fromSource(uri.getPath)
-
-  val parsed: Either[Error, Config] = fromSource("testdata/testconf.json")
-  parsed.map(c => println(c.tasks))
 }

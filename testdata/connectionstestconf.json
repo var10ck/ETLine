@@ -1,0 +1,9 @@
+{
+  "dbConnections": [  ],
+  "hdfsConnections": [
+    {
+      "connectionId": "localData",
+      "url": "./testdata"
+    }
+  ]
+}

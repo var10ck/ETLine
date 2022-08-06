@@ -13,13 +13,17 @@ class SourceTest extends AsyncFlatSpec {
     val json: String =
       """
       {
-        "connectionId": "c730433b-082c-4984-9d66-855c243266f0",
-        "waterMarkField": "Foo",
-        "readOptions": {
-          "bar": "Foo",
-          "baz": "Foo",
-          "qux": "Bar"
-        }
+        "connectionId": "localData",
+        "files": [
+          {
+            "path": "data4test.csv",
+            "hwmColumnName": "string",
+            "targetName": "testDataToLoad.csv",
+            "readOptions": {
+              "delimiter":  ";"
+            }
+          }
+        ]
       }
     """
 

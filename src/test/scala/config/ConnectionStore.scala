@@ -29,7 +29,7 @@ class ConnectionStore extends AnyFlatSpec with Matchers {
   ]
 }
         """
-    import com.etline.utils.ExecutionContexts.connectionStore
+    import com.etline.utils.ContextImplicits.connectionStore
     val connections = connectionStore.decodeJsonString(jsonString)
 
     connections.foreach(println)

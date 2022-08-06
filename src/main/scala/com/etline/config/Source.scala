@@ -3,6 +3,7 @@ package com.etline.config
 import cats.syntax.functor._
 import io.circe.Decoder
 import io.circe.generic.auto._
+import io.circe.generic.semiauto._
 
 sealed trait Source
 
@@ -31,4 +32,9 @@ object SourceDecoder {
     Decoder[FileSource].widen,
     Decoder[DbSource].widen
   ).reduceLeft(_ or _)
+
+  implicit val decodeTable: Decoder[Table] = deriveDecoder
+
+  implicit val decodeBatchLoad: Decoder[BatchLoad] = deriveDecoder
+  implicit val decodeFile: Decoder[File] = deriveDecoder
 }
