@@ -12,14 +12,18 @@ final case class FileSource(connectionId: String, files: List[File]) extends Sou
 
 case class Table(name: String,
                  hwmColumnName: String,
-                 targetName: String,
-                 readOptions: Map[String, String]
+                 targetName: Option[String],
+                 readOptions: Map[String, String],
+                 batchLoad: BatchLoad
 )
+
+case class BatchLoad(byColumn: String, partitionBy: String, interval: String)
 
 case class File(path: String,
                 hwmColumnName: String,
-                targetName: String,
-                readOptions: Map[String, String]
+                targetName: Option[String],
+                readOptions: Map[String, String],
+                batchLoad: BatchLoad
 )
 
 object SourceDecoder {

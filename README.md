@@ -9,16 +9,7 @@
   // Config
   "tasks": [
     {
-      // type: "string",
-      "saveMode": "savemode",
-      // Overwrite or Append
-      "batchLoad": {
-        "byColumn": "string",
-        "partitionBy": "string",
-        //date
-        "interval": "string"
-        //1 mounth, 1 year 
-      },
+      "saveMode": "savemode", // Overwrite or Append
       "dbSource": {
         "connectionId": "string",
         "tables": [
@@ -28,6 +19,11 @@
             "targetName": "string",
             "readOptions": {
               "key": "value"
+            },
+            "batchLoad": {
+              "byColumn": "string",
+              "partitionBy": "string", //date
+              "interval": "string" // 1 month, 1 year 
             }
           },
         ]
@@ -42,6 +38,11 @@
             "targetName": "string",
             "readOptions": {
               "key": "value"
+            },
+            "batchLoad": {
+              "byColumn": "string",
+              "partitionBy": "string", //date
+              "interval": "string" // 1 month, 1 year 
             }
           }
         ],

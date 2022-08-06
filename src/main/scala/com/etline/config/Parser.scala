@@ -2,7 +2,6 @@ package com.etline.config
 
 import io.circe._
 import io.circe.generic.auto._
-import io.circe.syntax._
 import io.circe.parser._
 
 import java.net.URI
@@ -19,7 +18,6 @@ object Parser {
       sparkSessionConf: Map[String, String]
   )
 
-  case class BatchLoad(byColumn: String, partitionBy: String, interval: String)
 
   case class DataTarget(connectionId: String,
                         format: String,
