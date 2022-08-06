@@ -16,7 +16,7 @@ object Dependencies {
     val circe = "0.14.1"
 
     // spark
-    val spark = "2.4.7"
+    val spark = "2.4.5"
 
     // Unit tests
     val scalatest  = "3.2.12"
