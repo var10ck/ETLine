@@ -7,33 +7,34 @@
 ```json5
 {
   // Config
-  tasks: [
+  "tasks": [
     {
       // type: "string",
-      saveMode: "savemode", // Overwrite or Append
-      batchLoad: {
-        byColumn: ["string"],
-        type: "string", //date
-        interval: "string" //1 mounth, 1 year 
+      "saveMode": "savemode", // Overwrite or Append
+      "batchLoad": {
+        "byColumn": "string",
+        "partitionBy": "string", //date
+        "interval": "string" //1 mounth, 1 year 
       },
-      source: {
-        connection_id: "string",
-        tables: [
+      "source": {
+        "connectionId": "string",
+        "tables": [
           {
-            name: "string",
-            columns: ["string"], // array of column names or ["*"]	
-            hwmColumnName: "string"
+            "name": "string",
+            "columns": ["string"], // array of column names or ["*"]	
+            "hwmColumnName": "string"
           }
         ]
       },
-      target: {
-        connection_id: "stirng",
-        format: "string",
-        path: "string"
+      "target": {
+        "connectionId": "string",
+        "format": "string",
+        "path": "string",
+        "writeOptions": {"key": "value"}
       },
-      sparkSessionConf: ["string"]
+      "sparkSessionConf": {"key": "value"}
     }
-  ],
+  ]
 }
 
 ```
@@ -42,20 +43,20 @@
 
 ```json5
 {
-  dbConnections: [
+  "dbConnections": [
     {
-      connectionId: "string",
-      driver: "string", // postgresql or other
-      host: "string", // localhost:5432
-      dbName: "string", // name of database 
-      user: "string",
-      password: "string"
+      "connectionId": "string",
+      "driver": "string", // postgresql or other
+      "host": "string", // localhost:5432
+      "dbName": "string", // name of database 
+      "user": "string",
+      "password": "string"
     }
   ],
-  hdfsConnections: [
+  "hdfsConnections": [
     {
-      connection_id: "string",
-      url: "string"
+      "connection_id": "string",
+      "url": "string"
     }
   ]
 }

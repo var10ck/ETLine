@@ -1,0 +1,39 @@
+{
+  "tasks": [
+    {
+      "saveMode": "savemode",
+      "batchLoad": {
+        "byColumn": "string",
+        "partitionBy": "string",
+        "interval": "string"
+      },
+      "source": {
+        "connectionId": "string",
+        "tables": [
+          {
+            "name": "string",
+            "columns": [
+              "string"
+            ],
+            "hwmColumnName": "string"
+          }
+        ]
+      },
+      "target": {
+        "connectionId": "string",
+        "format": "string",
+        "path": "string",
+        "writeOptions": {
+          "key0": "value0",
+          "key1": "value1",
+          "key2": "value2"
+        }
+      },
+      "sparkSessionConf": {
+        "key0": "value0",
+        "key1": "value1",
+        "key2": "value2"
+      }
+    }
+  ]
+}

@@ -12,6 +12,9 @@ object Dependencies {
     //parse args
     val scopt = "4.0.1"
 
+    //parse JSON
+    val circe = "0.14.1"
+
     // spark
     val spark = "2.4.7"
 
@@ -23,6 +26,12 @@ object Dependencies {
     "com.typesafe" % "config" % V.tsConfig,
     "com.github.scopt" %% "scopt" % V.scopt
   )
+
+  val JsonParsingDependencies = List(
+    "io.circe" %% "circe-core",
+    "io.circe" %% "circe-generic",
+    "io.circe" %% "circe-parser"
+  ).map(_ % V.circe)
 
   val sparkDependencies = List(
     "org.apache.spark" %% "spark-core" % V.spark % "provided",
@@ -37,6 +46,7 @@ object Dependencies {
 
   val all: List[ModuleID] = sparkDependencies ++
     testDependencies ++
+    JsonParsingDependencies ++
     commonDependencies
 
 }
