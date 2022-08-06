@@ -21,16 +21,23 @@
         "tables": [
           {
             "name": "string",
-            "columns": ["string"], // array of column names or ["*"]	
-            "hwmColumnName": "string"
+            "hwmColumnName": "string",
+            "targetName": "string"
           }
         ]
       },
       "fileSource": {
-        "path":"string",
-        "readOptions": {
-          "key": "value"
-        }
+        "files": [
+          {
+            "path": "string",
+            "hwmColumnName": "string",
+            targetName: "string",
+            "readOptions": {
+              "key": "value"
+            }
+          }
+        ],
+        
       },
       "target": {
         "connectionId": "string",
@@ -61,7 +68,7 @@
   ],
   "hdfsConnections": [
     {
-      "connection_id": "string",
+      "connectionId": "string",
       "url": "string"
     }
   ]
