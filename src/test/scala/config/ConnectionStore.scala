@@ -1,12 +1,7 @@
 package config
 
-import com.etline.config.ConnectionStore
 import org.scalatest.flatspec.AnyFlatSpec
-import io.circe
 import org.scalatest.matchers.should.Matchers
-
-import scala.Right
-import scala.util.Right
 
 class ConnectionStore extends AnyFlatSpec with Matchers {
 

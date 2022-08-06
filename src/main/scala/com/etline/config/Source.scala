@@ -14,7 +14,7 @@ case class Table(name: String,
                  hwmColumnName: String,
                  targetName: Option[String],
                  readOptions: Map[String, String],
-                 batchLoad: BatchLoad
+                 batchLoad: Option[BatchLoad]
 )
 
 case class BatchLoad(byColumn: String, partitionBy: String, interval: String)
@@ -23,7 +23,7 @@ case class File(path: String,
                 hwmColumnName: String,
                 targetName: Option[String],
                 readOptions: Map[String, String],
-                batchLoad: BatchLoad
+                batchLoad: Option[BatchLoad]
 )
 
 object SourceDecoder {
