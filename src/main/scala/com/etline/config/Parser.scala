@@ -21,11 +21,6 @@ object Parser {
 
   case class BatchLoad(byColumn: String, partitionBy: String, interval: String)
 
-  sealed trait Source
-  final case class DbSource(connectionId: String, tables: List[Table]) extends Source
-
-  final case class FileSource(path: String, readOptions: Map[String, String]) extends Source
-
   case class Table(name: String, columns: List[String], hwmColumnName: String)
 
   case class DataTarget(connectionId: String,
