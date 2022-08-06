@@ -36,6 +36,7 @@ class SourceTest extends AsyncFlatSpec {
       """
       {
         "path": "c730433b-082c-4984-9d66-855c243266f0",
+        "waterMarkField": "Foo",
         "readOptions": {
           "bar": "Foo",
           "baz": "Foo",
