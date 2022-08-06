@@ -25,7 +25,7 @@ trait DataBase[F[_]] {
    * @param tableName название таблицы
    * @return опциональное значение инкремента
    */
-  def getIncrement(tableName: String): F[Option[WaterMark]]
+  def getWatermark(tableName: String): F[Option[WaterMark]]
 
   /**
    * Обновление значения инкремента в таблице
@@ -33,7 +33,7 @@ trait DataBase[F[_]] {
    * @param incrementData новое значение
    * @return единицу, если значение обновлено
    */
-  def updateIncrement(incrementData: WaterMark): F[Int]
+  def updateWaterMark(incrementData: WaterMark): F[Int]
 
 
 }

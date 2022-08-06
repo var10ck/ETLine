@@ -48,7 +48,7 @@ class DataBaseTest extends AsyncFlatSpec with Matchers {
 
     val future = for {
       _ <- dataBase.insert(WaterMark("table", 1))
-      result <- dataBase.updateIncrement(WaterMark("table", 2))
+      result <- dataBase.updateWaterMark(WaterMark("table", 2))
       _ <- dataBase.db.run(query.result)
     } yield result
     future.map(value => assert(value == 1))
@@ -58,7 +58,7 @@ class DataBaseTest extends AsyncFlatSpec with Matchers {
     dataBase.dropTable
     dataBase.createTable()
 
-    dataBase.updateIncrement(WaterMark("table", 2)).map(value => assert(value == 0))
+    dataBase.updateWaterMark(WaterMark("table", 2)).map(value => assert(value == 0))
 
   }
 
@@ -71,7 +71,7 @@ class DataBaseTest extends AsyncFlatSpec with Matchers {
 
     val future = for {
       _ <- dataBase.insert(WaterMark("table", 1))
-      waterMark = dataBase.getIncrement("table")
+      waterMark = dataBase.getWatermark("table")
     } yield waterMark
 
     future.flatten.map(optWatermark => optWatermark.map(waterMark => assert(waterMark == WaterMark("table", 1, Some(1)))).get)

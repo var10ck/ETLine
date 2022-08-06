@@ -8,51 +8,51 @@ case class DataBaseImpl(config: String)(implicit val executionContext: Execution
 
   val db = Database.forConfig(config)
 
-  val increments: TableQuery[WaterMarksTable] = TableQuery[WaterMarksTable]
+  val waterMarks: TableQuery[WaterMarksTable] = TableQuery[WaterMarksTable]
 
-  def dropTable: Future[Unit] = db.run(increments.schema.dropIfExists)
+  def dropTable: Future[Unit] = db.run(waterMarks.schema.dropIfExists)
 
   /**
    * Создает таблицу
    *
    * @return unit
    */
-  override def createTable(): Future[Unit] = db.run(increments.schema.createIfNotExists)
+  override def createTable(): Future[Unit] = db.run(waterMarks.schema.createIfNotExists)
 
   /**
-   * Добавление инкремента в БД
+   * Добавление High Water Mark в БД
    *
-   * @param increment который необходимо добавить
+   * @param waterMark наибольшее значение watermark-поля которое необходимо добавить
    * @return единицу, если запись добавлена
    */
-  override def insert(increment: WaterMark): Future[Int] = getIncrement(increment.tableName) flatMap {
+  override def insert(waterMark: WaterMark): Future[Int] = getWatermark(waterMark.tableName) flatMap {
     case Some(_) => Future.successful(0)
-    case None => db.run(increments += increment)
+    case None => db.run(waterMarks += waterMark)
   }
 
   /**
    * Поиск в БД по названию инкремента
    *
    * @param tableName название таблицы
-   * @return опциональное значение инкремента
+   * @return опциональное значение high water mark
    */
-  override def getIncrement(tableName: String): Future[Option[WaterMark]] = {
+  override def getWatermark(tableName: String): Future[Option[WaterMark]] = {
     val query = for {
-      increment <- increments if increment.incrementForTable like tableName
-    } yield increment
+      waterMark <- waterMarks if waterMark.forTable like tableName
+    } yield waterMark
     db.run(query.result.headOption)
   }
 
   /**
-   * Обновление значения инкремента в таблице
+   * Обновление значения high water mark в таблице
    *
-   * @param incrementData новое значение
+   * @param waterMark новое значение
    * @return единицу, если значение обновлено
    */
-  override def updateIncrement(incrementData: WaterMark): Future[Int] =
-    getIncrement(incrementData.tableName) flatMap {
+  override def updateWaterMark(waterMark: WaterMark): Future[Int] =
+    getWatermark(waterMark.tableName) flatMap {
       case Some(value) => val oldVal = value.waterMark
-        val q = increments.filter(_.incrementForTable === incrementData.tableName).map(_.waterMark).update(oldVal + 1)
+        val q = waterMarks.filter(_.forTable === waterMark.tableName).map(_.waterMark).update(oldVal + 1)
         db.run(q)
       case None => Future.successful(0)
     }
