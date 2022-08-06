@@ -12,16 +12,14 @@ object Parser {
   case class Config(tasks: List[Task])
 
   case class Task(
-                   saveMode: String,
-                   batchLoad: Option[BatchLoad],
-                   source: Source,
+      saveMode: String,
+      batchLoad: Option[BatchLoad],
+      source: Source,
       target: DataTarget,
       sparkSessionConf: Map[String, String]
   )
 
   case class BatchLoad(byColumn: String, partitionBy: String, interval: String)
-
-  case class Table(name: String, columns: List[String], hwmColumnName: String)
 
   case class DataTarget(connectionId: String,
                         format: String,

@@ -10,11 +10,14 @@
   "tasks": [
     {
       // type: "string",
-      "saveMode": "savemode", // Overwrite or Append
+      "saveMode": "savemode",
+      // Overwrite or Append
       "batchLoad": {
         "byColumn": "string",
-        "partitionBy": "string", //date
-        "interval": "string" //1 mounth, 1 year 
+        "partitionBy": "string",
+        //date
+        "interval": "string"
+        //1 mounth, 1 year 
       },
       "dbSource": {
         "connectionId": "string",
@@ -22,30 +25,38 @@
           {
             "name": "string",
             "hwmColumnName": "string",
-            "targetName": "string"
-          }
+            "targetName": "string",
+            "readOptions": {
+              "key": "value"
+            }
+          },
         ]
       },
+      //or
       "fileSource": {
+        "connectionId": "string",
         "files": [
           {
             "path": "string",
             "hwmColumnName": "string",
-            targetName: "string",
+            "targetName": "string",
             "readOptions": {
               "key": "value"
             }
           }
         ],
-        
       },
       "target": {
         "connectionId": "string",
         "format": "string",
         "path": "string",
-        "writeOptions": {"key": "value"}
+        "writeOptions": {
+          "key": "value"
+        }
       },
-      "sparkSessionConf": {"key": "value"}
+      "sparkSessionConf": {
+        "key": "value"
+      }
     }
   ]
 }
@@ -59,9 +70,12 @@
   "dbConnections": [
     {
       "connectionId": "string",
-      "driver": "string", // postgresql or other
-      "host": "string", // localhost:5432
-      "dbName": "string", // name of database 
+      "driver": "string",
+      // postgresql or other
+      "host": "string",
+      // localhost:5432
+      "dbName": "string",
+      // name of database 
       "user": "string",
       "password": "string"
     }
