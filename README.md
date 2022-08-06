@@ -16,7 +16,7 @@
         "partitionBy": "string", //date
         "interval": "string" //1 mounth, 1 year 
       },
-      "source": {
+      "dbSource": {
         "connectionId": "string",
         "tables": [
           {
@@ -25,6 +25,12 @@
             "hwmColumnName": "string"
           }
         ]
+      },
+      "fileSource": {
+        "path":"string",
+        "readOptions": {
+          "key": "value"
+        }
       },
       "target": {
         "connectionId": "string",

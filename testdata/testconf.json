@@ -1,13 +1,13 @@
 {
   "tasks": [
     {
-      "saveMode": "savemode",
+      "saveMode": "Overwrite",
       "batchLoad": {
         "byColumn": "string",
         "partitionBy": "string",
         "interval": "string"
       },
-      "source": {
+      "dbSource": {
         "connectionId": "string",
         "tables": [
           {
@@ -18,6 +18,12 @@
             "hwmColumnName": "string"
           }
         ]
+      },
+      "fileSource": {
+        "path":"string",
+        "readOptions": {
+          "key": "value"
+        }
       },
       "target": {
         "connectionId": "string",
