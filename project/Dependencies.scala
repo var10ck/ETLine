@@ -19,7 +19,7 @@ object Dependencies {
     val spark = "2.4.5"
 
     // Unit tests
-    val scalatest  = "3.2.12"
+    val scalatest = "3.2.12"
   }
 
   val commonDependencies = List(
@@ -35,7 +35,7 @@ object Dependencies {
 
   val sparkDependencies = List(
     "org.apache.spark" %% "spark-core" % V.spark % "provided",
-    "org.apache.spark" %% "spark-sql"  % V.spark % "provided",
+    "org.apache.spark" %% "spark-sql" % V.spark % "provided",
     "org.apache.spark" %% "spark-hive" % V.spark % "provided"
   )
 
@@ -44,9 +44,18 @@ object Dependencies {
     "org.scalatest" %% "scalatest" % V.scalatest % "test"
   )
 
+  val slickDependencies = List(
+    "com.typesafe.slick" %% "slick" % "3.3.3",
+    "com.typesafe.slick" %% "slick-hikaricp" % "3.3.3",
+    "org.postgresql" % "postgresql" % "42.3.5",
+    "com.h2database" % "h2" % "1.4.200",
+    "ch.qos.logback" % "logback-classic" % "1.2.3",
+  )
+
   val all: List[ModuleID] = sparkDependencies ++
     testDependencies ++
     JsonParsingDependencies ++
-    commonDependencies
+    commonDependencies ++
+    slickDependencies
 
 }

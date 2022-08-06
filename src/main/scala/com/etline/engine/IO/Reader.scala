@@ -1,7 +1,7 @@
 package com.etline.engine.IO
 
-import com.etline.config.{DbSource, FileSource, Parser}
 import com.etline.config.Parser.Task
+import com.etline.config.{DbSource, FileSource}
 import org.apache.spark.sql.{DataFrame, SparkSession}
 
 object Reader {
