@@ -7,7 +7,7 @@
         "partitionBy": "string",
         "interval": "string"
       },
-      "dbSource": {
+      "source": {
         "connectionId": "string",
         "tables": [
           {

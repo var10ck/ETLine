@@ -8,23 +8,23 @@ import io.circe.parser._
 import java.net.URI
 import scala.io.BufferedSource
 
-object Parser extends App {
+object Parser {
   case class Config(tasks: List[Task])
 
   case class Task(
                    saveMode: String,
                    batchLoad: Option[BatchLoad],
-                   dbSource: Option[DbSource],
-                   fileSource: Option[FileSource],
+                   source: Source,
       target: DataTarget,
       sparkSessionConf: Map[String, String]
   )
 
   case class BatchLoad(byColumn: String, partitionBy: String, interval: String)
 
-  case class DbSource(connectionId: String, tables: List[Table])
+  sealed trait Source
+  final case class DbSource(connectionId: String, tables: List[Table]) extends Source
 
-  case class FileSource(path: String, readOptions: Map[String, String])
+  final case class FileSource(path: String, readOptions: Map[String, String]) extends Source
 
   case class Table(name: String, columns: List[String], hwmColumnName: String)
 
@@ -45,6 +45,6 @@ object Parser extends App {
 
   def fromSource(uri: URI): Either[Error, Config] = fromSource(uri.getPath)
 
-  val parsed = fromSource("testdata/testconf.json")
+  val parsed: Either[Error, Config] = fromSource("testdata/testconf.json")
   parsed.map(c => println(c.tasks))
 }
