@@ -2,6 +2,7 @@ package com.etline.utils
 
 import com.etline.config.{ConnectionStore, Parser}
 import com.etline.metaDataManagement.IncrementsLogic.HwmDataBaseImpl
+import com.etline.metaDataManagement.LogsLogic.{CustomListener, DataBaseImpl}
 import org.apache.spark.SparkConf
 import org.apache.spark.sql.SparkSession
 
@@ -10,12 +11,12 @@ import scala.concurrent.{ExecutionContext, ExecutionContextExecutor}
 
 object ContextImplicits {
 
-  implicit val config: Parser.Config = Parser.fromSource("testdata/testconf.json") match {
+  implicit lazy val config: Parser.Config = Parser.fromSource("testdata/testconf.json") match {
     case Right(value) => value
     case Left(value) => throw value
   }
 
-  implicit val sparkSession: SparkSession = SparkSession.builder()
+  implicit lazy val sparkSession: SparkSession = SparkSession.builder()
     .config(new SparkConf().setAll(config.sparkSessionConf))
 //    .master("local[*]")
 //    .appName("ddddd")
@@ -27,5 +28,6 @@ object ContextImplicits {
 
 //  implicit val waterMarkDateBase: DataBaseImpl = DataBaseImpl("postgres")
   implicit val waterMarkDateBase: HwmDataBaseImpl = HwmDataBaseImpl("h2")
+  implicit val logsDb: DataBaseImpl = DataBaseImpl("h2")
 
 }

@@ -9,14 +9,14 @@ import org.apache.spark.sql.DataFrame
 import org.apache.spark.sql.functions.col
 
 object Loader {
-  def load(tableToWrite: TableToWrite, taskConfig: Task) = {
+  def load(tableToWrite: TableToWrite, taskConfig: Task, layer: String) = {
     val targetConf = taskConfig.target
     val connStore = implicitly[ConnectionStore]
     val connection = connStore.getHdfsConnection(targetConf.connectionId) match {
       case Some(value) => value
       case None        => throw new Exception("connectionId not found")
     }
-    val saveTo    = s"${connection.url}/${taskConfig.target.path}/${tableToWrite.targetName}"
+    val saveTo    = s"${connection.url}/$layer/${taskConfig.target.path}/${tableToWrite.targetName}"
     val hwmDb = implicitly[HwmDataBaseImpl]
     val watermark = hwmDb.getWatermark(tableToWrite.targetName)
     watermark
@@ -32,5 +32,9 @@ object Loader {
           .format(targetConf.format)
           .save(saveTo)
       }
+  }
+
+  def write(tableToWrite: TableToWrite) ={
+
   }
 }
