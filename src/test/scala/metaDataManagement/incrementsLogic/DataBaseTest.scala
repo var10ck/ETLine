@@ -49,9 +49,10 @@ class DataBaseTest extends AsyncFlatSpec with Matchers {
     val future = for {
       _ <- dataBase.insert(WaterMark("table", 1))
       result <- dataBase.updateWaterMark(WaterMark("table", 2))
+      watermark <- dataBase.getWatermark("table")
       _ <- dataBase.db.run(query.result)
-    } yield result
-    future.map(value => assert(value == 1))
+    } yield (result, watermark)
+    future.map(value => assert(value._1 == 1 && value._2.get.waterMark == 2))
   }
 
   it should "return 0 because doesnt exist" in {
@@ -67,7 +68,6 @@ class DataBaseTest extends AsyncFlatSpec with Matchers {
   it should "return watermark" in {
     dataBase.dropTable
     dataBase.createTable()
-
 
     val future = for {
       _ <- dataBase.insert(WaterMark("table", 1))

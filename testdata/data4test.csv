@@ -1,1001 +1,1001 @@
-id;name;city;age;birth_date;version
-0;Rutherford;Cheyenne;70;06.08.2022 12:47;1
-1;Theodore;Tallahassee;15;07.08.2022 12:47;1
-2;Dwight;Atlanta;100;08.08.2022 12:47;1
-3;Ronald;Columbus;66;09.08.2022 12:47;1
-4;Thomas;Salem;18;10.08.2022 12:47;1
-5;Theodore;Albany;12;11.08.2022 12:47;1
-6;Lyndon;Santa Fe;99;12.08.2022 12:47;1
-7;John;Oklahoma City;50;13.08.2022 12:47;1
-8;Lyndon;Oklahoma City;25;14.08.2022 12:47;1
-9;William;Saint Paul;78;15.08.2022 12:47;1
-10;Ronald;Tallahassee;83;16.08.2022 12:47;1
-11;Abraham;Charleston;83;17.08.2022 12:47;1
-12;George;Baton Rouge;88;18.08.2022 12:47;1
-13;Martin;Bismarck;98;19.08.2022 12:47;1
-14;Harry;Montpelier;49;20.08.2022 12:47;1
-15;Chester;Madison;98;21.08.2022 12:47;1
-16;Calvin;Baton Rouge;73;22.08.2022 12:47;1
-17;Franklin;Annapolis;91;23.08.2022 12:47;1
-18;Theodore;Dover;99;24.08.2022 12:47;1
-19;Grover;Jefferson City;59;25.08.2022 12:47;1
-20;Woodrow;Bismarck;69;26.08.2022 12:47;1
-21;Franklin;Carson City;71;27.08.2022 12:47;1
-22;Lyndon;Springfield;26;28.08.2022 12:47;1
-23;Dwight;Austin;91;29.08.2022 12:47;1
-24;Benjamin;Hartford;96;30.08.2022 12:47;1
-25;Chester;Sacramento;80;31.08.2022 12:47;1
-26;Millard;Pierre;0;01.09.2022 12:47;1
-27;George;Helena;73;02.09.2022 12:47;1
-28;Theodore;Little Rock;100;03.09.2022 12:47;1
-29;Thomas;Tallahassee;78;04.09.2022 12:47;1
-30;Richard;Concord;65;05.09.2022 12:47;1
-31;George;Columbia;45;06.09.2022 12:47;1
-32;Grover;Baton Rouge;24;07.09.2022 12:47;1
-33;Rutherford;Olympia;46;08.09.2022 12:47;1
-34;George;Phoenix;9;09.09.2022 12:47;1
-35;Herbert;Annapolis;85;10.09.2022 12:47;1
-36;George;Montpelier;59;11.09.2022 12:47;1
-37;Andrew;Montpelier;54;12.09.2022 12:47;1
-38;Richard;Carson City;18;13.09.2022 12:47;1
-39;Benjamin;Lansing;82;14.09.2022 12:47;1
-40;Grover;Saint Paul;34;15.09.2022 12:47;1
-41;Jimmy;Topeka;43;16.09.2022 12:47;1
-42;Ronald;Honolulu;44;17.09.2022 12:47;1
-43;Bill;Salem;76;18.09.2022 12:47;1
-44;Richard;Montgomery;78;19.09.2022 12:47;1
-45;Benjamin;Pierre;65;20.09.2022 12:47;1
-46;Bill;Olympia;99;21.09.2022 12:47;1
-47;Rutherford;Hartford;54;22.09.2022 12:47;1
-48;Rutherford;Oklahoma City;11;23.09.2022 12:47;1
-49;Woodrow;Sacramento;74;24.09.2022 12:47;1
-50;Chester;Indianapolis;41;25.09.2022 12:47;1
-51;Harry;Jefferson City;55;26.09.2022 12:47;1
-52;Warren;Jefferson City;91;27.09.2022 12:47;1
-53;Andrew;Montgomery;22;28.09.2022 12:47;1
-54;Thomas;Trenton;0;29.09.2022 12:47;1
-55;John;Harrisburg;32;30.09.2022 12:47;1
-56;Ulysses;Carson City;9;01.10.2022 12:47;1
-57;George;Pierre;97;02.10.2022 12:47;1
-58;Woodrow;Saint Paul;58;03.10.2022 12:47;1
-59;Franklin;Olympia;53;04.10.2022 12:47;1
-60;Andrew;Salem;45;05.10.2022 12:47;1
-61;Thomas;Helena;33;06.10.2022 12:47;1
-62;Millard;Charleston;66;07.10.2022 12:47;1
-63;Woodrow;Jefferson City;22;08.10.2022 12:47;1
-64;Calvin;Indianapolis;19;09.10.2022 12:47;1
-65;Benjamin;Richmond;30;10.10.2022 12:47;1
-66;Dwight;Albany;14;11.10.2022 12:47;1
-67;John;Des Moines;80;12.10.2022 12:47;1
-68;Herbert;Boston;97;13.10.2022 12:47;1
-69;William;Dover;0;14.10.2022 12:47;1
-70;Benjamin;Austin;55;15.10.2022 12:47;1
-71;Calvin;Tallahassee;67;16.10.2022 12:47;1
-72;Jimmy;Cheyenne;31;17.10.2022 12:47;1
-73;Warren;Richmond;16;18.10.2022 12:47;1
-74;Bill;Olympia;27;19.10.2022 12:47;1
-75;Zachary;Dover;16;20.10.2022 12:47;1
-76;Millard;Albany;82;21.10.2022 12:47;1
-77;Warren;Santa Fe;88;22.10.2022 12:47;1
-78;Ronald;Providence;63;23.10.2022 12:47;1
-79;Abraham;Juneau;88;24.10.2022 12:47;1
-80;Andrew;Salem;77;25.10.2022 12:47;1
-81;Theodore;Juneau;88;26.10.2022 12:47;1
-82;Ulysses;Columbia;46;27.10.2022 12:47;1
-83;William;Montpelier;56;28.10.2022 12:47;1
-84;Andrew;Denver;28;29.10.2022 12:47;1
-85;George;Montgomery;20;30.10.2022 12:47;1
-86;John;Lincoln;79;31.10.2022 12:47;1
-87;Ulysses;Little Rock;65;01.11.2022 12:47;1
-88;Chester;Richmond;0;02.11.2022 12:47;1
-89;Ulysses;Phoenix;52;03.11.2022 12:47;1
-90;Chester;Boise;9;04.11.2022 12:47;1
-91;Ulysses;Carson City;52;05.11.2022 12:47;1
-92;Grover;Salt Lake City;9;06.11.2022 12:47;1
-93;Gerald;Hartford;64;07.11.2022 12:47;1
-94;Harry;Trenton;53;08.11.2022 12:47;1
-95;Ronald;Carson City;26;09.11.2022 12:47;1
-96;Dwight;Oklahoma City;81;10.11.2022 12:47;1
-97;Richard;Indianapolis;19;11.11.2022 12:47;1
-98;Theodore;Raleigh;21;12.11.2022 12:47;1
-99;Jimmy;Hartford;95;13.11.2022 12:47;1
-100;Grover;Lansing;16;14.11.2022 12:47;1
-101;Dwight;Juneau;4;15.11.2022 12:47;1
-102;Richard;Tallahassee;95;16.11.2022 12:47;1
-103;Chester;Cheyenne;46;17.11.2022 12:47;1
-104;Martin;Honolulu;82;18.11.2022 12:47;1
-105;Martin;Carson City;63;19.11.2022 12:47;1
-106;Woodrow;Phoenix;89;20.11.2022 12:47;1
-107;Calvin;Annapolis;55;21.11.2022 12:47;1
-108;Benjamin;Lincoln;61;22.11.2022 12:47;1
-109;Bill;Montpelier;58;23.11.2022 12:47;1
-110;Theodore;Pierre;54;24.11.2022 12:47;1
-111;Thomas;Annapolis;20;25.11.2022 12:47;1
-112;James;Olympia;46;26.11.2022 12:47;1
-113;Franklin;Frankfort;83;27.11.2022 12:47;1
-114;Martin;Salt Lake City;36;28.11.2022 12:47;1
-115;Ronald;Carson City;76;29.11.2022 12:47;1
-116;Andrew;Annapolis;45;30.11.2022 12:47;1
-117;Thomas;Frankfort;14;01.12.2022 12:47;1
-118;Lyndon;Jackson;65;02.12.2022 12:47;1
-119;Jimmy;Atlanta;21;03.12.2022 12:47;1
-120;Grover;Raleigh;33;04.12.2022 12:47;1
-121;Andrew;Juneau;26;05.12.2022 12:47;1
-122;Chester;Tallahassee;50;06.12.2022 12:47;1
-123;Rutherford;Baton Rouge;4;07.12.2022 12:47;1
-124;Abraham;Frankfort;15;08.12.2022 12:47;1
-125;Woodrow;Jefferson City;45;09.12.2022 12:47;1
-126;James;Annapolis;6;10.12.2022 12:47;1
-127;Bill;Montpelier;28;11.12.2022 12:47;1
-128;Bill;Indianapolis;8;12.12.2022 12:47;1
-129;Dwight;Charleston;68;13.12.2022 12:47;1
-130;George;Dover;72;14.12.2022 12:47;1
-131;Herbert;Charleston;59;15.12.2022 12:47;1
-132;John;Richmond;5;16.12.2022 12:47;1
-133;William;Bismarck;22;17.12.2022 12:47;1
-134;Chester;Richmond;55;18.12.2022 12:47;1
-135;Richard;Juneau;79;19.12.2022 12:47;1
-136;Rutherford;Austin;33;20.12.2022 12:47;1
-137;Martin;Jackson;47;21.12.2022 12:47;1
-138;Harry;Columbia;11;22.12.2022 12:47;1
-139;Zachary;Baton Rouge;75;23.12.2022 12:47;1
-140;Zachary;Harrisburg;69;24.12.2022 12:47;1
-141;Grover;Jefferson City;36;25.12.2022 12:47;1
-142;Grover;Harrisburg;96;26.12.2022 12:47;1
-143;Harry;Cheyenne;40;27.12.2022 12:47;1
-144;Benjamin;Charleston;88;28.12.2022 12:47;1
-145;Harry;Helena;25;29.12.2022 12:47;1
-146;Lyndon;Baton Rouge;23;30.12.2022 12:47;1
-147;Thomas;Bismarck;64;31.12.2022 12:47;1
-148;James;Madison;6;01.01.2023 12:47;1
-149;Calvin;Columbia;85;02.01.2023 12:47;1
-150;Grover;Helena;90;03.01.2023 12:47;1
-151;Chester;Honolulu;39;04.01.2023 12:47;1
-152;Rutherford;Springfield;66;05.01.2023 12:47;1
-153;Calvin;Juneau;55;06.01.2023 12:47;1
-154;Lyndon;Springfield;65;07.01.2023 12:47;1
-155;James;Tallahassee;13;08.01.2023 12:47;1
-156;Grover;Charleston;87;09.01.2023 12:47;1
-157;Benjamin;Lincoln;41;10.01.2023 12:47;1
-158;Jimmy;Trenton;31;11.01.2023 12:47;1
-159;John;Richmond;81;12.01.2023 12:47;1
-160;Millard;Pierre;71;13.01.2023 12:47;1
-161;Chester;Jefferson City;42;14.01.2023 12:47;1
-162;Richard;Columbia;24;15.01.2023 12:47;1
-163;Harry;Cheyenne;96;16.01.2023 12:47;1
-164;Chester;Jefferson City;20;17.01.2023 12:47;1
-165;Dwight;Boston;1;18.01.2023 12:47;1
-166;Benjamin;Helena;83;19.01.2023 12:47;1
-167;William;Lincoln;83;20.01.2023 12:47;1
-168;Bill;Juneau;16;21.01.2023 12:47;1
-169;Warren;Harrisburg;83;22.01.2023 12:47;1
-170;William;Albany;10;23.01.2023 12:47;1
-171;Theodore;Indianapolis;85;24.01.2023 12:47;1
-172;Richard;Olympia;90;25.01.2023 12:47;1
-173;Zachary;Carson City;47;26.01.2023 12:47;1
-174;Herbert;Dover;62;27.01.2023 12:47;1
-175;Herbert;Trenton;27;28.01.2023 12:47;1
-176;Dwight;Austin;27;29.01.2023 12:47;1
-177;John;Lansing;28;30.01.2023 12:47;1
-178;Ronald;Atlanta;1;31.01.2023 12:47;1
-179;Ronald;Denver;45;01.02.2023 12:47;1
-180;Andrew;Montpelier;9;02.02.2023 12:47;1
-181;Theodore;Lansing;39;03.02.2023 12:47;1
-182;Chester;Montgomery;23;04.02.2023 12:47;1
-183;Richard;Atlanta;27;05.02.2023 12:47;1
-184;Lyndon;Lansing;81;06.02.2023 12:47;1
-185;Bill;Olympia;99;07.02.2023 12:47;1
-186;Abraham;Topeka;59;08.02.2023 12:47;1
-187;Theodore;Springfield;88;09.02.2023 12:47;1
-188;Lyndon;Albany;75;10.02.2023 12:47;1
-189;Warren;Concord;36;11.02.2023 12:47;1
-190;Jimmy;Charleston;56;12.02.2023 12:47;1
-191;John;Hartford;90;13.02.2023 12:47;1
-192;Rutherford;Frankfort;88;14.02.2023 12:47;1
-193;Jimmy;Baton Rouge;60;15.02.2023 12:47;1
-194;Ronald;Richmond;75;16.02.2023 12:47;1
-195;Herbert;Lincoln;26;17.02.2023 12:47;1
-196;Franklin;Tallahassee;3;18.02.2023 12:47;1
-197;Chester;Pierre;86;19.02.2023 12:47;1
-198;Bill;Frankfort;73;20.02.2023 12:47;1
-199;Theodore;Providence;98;21.02.2023 12:47;1
-200;Thomas;Jackson;63;22.02.2023 12:47;1
-201;John;Trenton;80;23.02.2023 12:47;1
-202;Warren;Madison;52;24.02.2023 12:47;1
-203;Andrew;Olympia;40;25.02.2023 12:47;1
-204;Franklin;Olympia;1;26.02.2023 12:47;1
-205;George;Austin;96;27.02.2023 12:47;1
-206;William;Nashville;29;28.02.2023 12:47;1
-207;Harry;Hartford;42;01.03.2023 12:47;1
-208;Ulysses;Salem;100;02.03.2023 12:47;1
-209;Warren;Juneau;48;03.03.2023 12:47;1
-210;Warren;Salem;16;04.03.2023 12:47;1
-211;James;Des Moines;11;05.03.2023 12:47;1
-212;Millard;Charleston;37;06.03.2023 12:47;1
-213;Ulysses;Madison;6;07.03.2023 12:47;1
-214;Richard;Olympia;84;08.03.2023 12:47;1
-215;Harry;Madison;99;09.03.2023 12:47;1
-216;Richard;Tallahassee;23;10.03.2023 12:47;1
-217;Gerald;Charleston;32;11.03.2023 12:47;1
-218;Andrew;Columbus;2;12.03.2023 12:47;1
-219;Andrew;Augusta;87;13.03.2023 12:47;1
-220;Bill;Oklahoma City;2;14.03.2023 12:47;1
-221;Herbert;Indianapolis;53;15.03.2023 12:47;1
-222;Jimmy;Dover;28;16.03.2023 12:47;1
-223;George;Boise;17;17.03.2023 12:47;1
-224;John;Lansing;7;18.03.2023 12:47;1
-225;Dwight;Helena;34;19.03.2023 12:47;1
-226;Woodrow;Pierre;29;20.03.2023 12:47;1
-227;Gerald;Pierre;17;21.03.2023 12:47;1
-228;James;Jackson;83;22.03.2023 12:47;1
-229;Ronald;Concord;13;23.03.2023 12:47;1
-230;Grover;Salt Lake City;21;24.03.2023 12:47;1
-231;Thomas;Phoenix;59;25.03.2023 12:47;1
-232;Benjamin;Helena;58;26.03.2023 12:47;1
-233;Zachary;Augusta;16;27.03.2023 12:47;1
-234;Lyndon;Boise;96;28.03.2023 12:47;1
-235;James;Montpelier;92;29.03.2023 12:47;1
-236;Warren;Saint Paul;39;30.03.2023 12:47;1
-237;Andrew;Harrisburg;30;31.03.2023 12:47;1
-238;Richard;Cheyenne;10;01.04.2023 12:47;1
-239;John;Concord;70;02.04.2023 12:47;1
-240;John;Helena;88;03.04.2023 12:47;1
-241;Richard;Little Rock;64;04.04.2023 12:47;1
-242;Richard;Little Rock;22;05.04.2023 12:47;1
-243;Theodore;Raleigh;88;06.04.2023 12:47;1
-244;Richard;Montgomery;30;07.04.2023 12:47;1
-245;Harry;Baton Rouge;48;08.04.2023 12:47;1
-246;Gerald;Raleigh;31;09.04.2023 12:47;1
-247;Warren;Atlanta;0;10.04.2023 12:47;1
-248;Ulysses;Tallahassee;12;11.04.2023 12:47;1
-249;Calvin;Boston;1;12.04.2023 12:47;1
-250;Herbert;Saint Paul;91;13.04.2023 12:47;1
-251;Jimmy;Topeka;84;14.04.2023 12:47;1
-252;James;Sacramento;97;15.04.2023 12:47;1
-253;Rutherford;Boston;78;16.04.2023 12:47;1
-254;Herbert;Dover;19;17.04.2023 12:47;1
-255;Theodore;Trenton;39;18.04.2023 12:47;1
-256;James;Sacramento;29;19.04.2023 12:47;1
-257;Martin;Carson City;58;20.04.2023 12:47;1
-258;John;Augusta;69;21.04.2023 12:47;1
-259;Ronald;Trenton;42;22.04.2023 12:47;1
-260;Theodore;Annapolis;36;23.04.2023 12:47;1
-261;Andrew;Pierre;13;24.04.2023 12:47;1
-262;Franklin;Salem;10;25.04.2023 12:47;1
-263;Dwight;Charleston;89;26.04.2023 12:47;1
-264;Rutherford;Topeka;81;27.04.2023 12:47;1
-265;Martin;Raleigh;71;28.04.2023 12:47;1
-266;Grover;Santa Fe;48;29.04.2023 12:47;1
-267;Jimmy;Salt Lake City;13;30.04.2023 12:47;1
-268;Woodrow;Des Moines;40;01.05.2023 12:47;1
-269;Herbert;Madison;0;02.05.2023 12:47;1
-270;Theodore;Lincoln;98;03.05.2023 12:47;1
-271;Gerald;Denver;67;04.05.2023 12:47;1
-272;George;Juneau;79;05.05.2023 12:47;1
-273;Andrew;Denver;9;06.05.2023 12:47;1
-274;Woodrow;Nashville;98;07.05.2023 12:47;1
-275;Calvin;Austin;26;08.05.2023 12:47;1
-276;Martin;Austin;26;09.05.2023 12:47;1
-277;Franklin;Pierre;31;10.05.2023 12:47;1
-278;Woodrow;Lincoln;31;11.05.2023 12:47;1
-279;Harry;Bismarck;17;12.05.2023 12:47;1
-280;Millard;Helena;88;13.05.2023 12:47;1
-281;Herbert;Denver;82;14.05.2023 12:47;1
-282;Herbert;Montgomery;8;15.05.2023 12:47;1
-283;Richard;Trenton;6;16.05.2023 12:47;1
-284;Theodore;Montgomery;61;17.05.2023 12:47;1
-285;Martin;Bismarck;51;18.05.2023 12:47;1
-286;John;Little Rock;4;19.05.2023 12:47;1
-287;John;Trenton;30;20.05.2023 12:47;1
-288;Woodrow;Oklahoma City;48;21.05.2023 12:47;1
-289;Andrew;Columbus;56;22.05.2023 12:47;1
-290;Ulysses;Charleston;41;23.05.2023 12:47;1
-291;Lyndon;Carson City;82;24.05.2023 12:47;1
-292;Thomas;Richmond;87;25.05.2023 12:47;1
-293;Millard;Baton Rouge;17;26.05.2023 12:47;1
-294;Warren;Tallahassee;36;27.05.2023 12:47;1
-295;Thomas;Santa Fe;32;28.05.2023 12:47;1
-296;Rutherford;Juneau;73;29.05.2023 12:47;1
-297;Theodore;Baton Rouge;39;30.05.2023 12:47;1
-298;Theodore;Boise;26;31.05.2023 12:47;1
-299;Martin;Boston;21;01.06.2023 12:47;1
-300;Thomas;Albany;6;02.06.2023 12:47;1
-301;Gerald;Boise;50;03.06.2023 12:47;1
-302;Woodrow;Harrisburg;90;04.06.2023 12:47;1
-303;Richard;Trenton;38;05.06.2023 12:47;1
-304;Benjamin;Tallahassee;35;06.06.2023 12:47;1
-305;Harry;Baton Rouge;21;07.06.2023 12:47;1
-306;Ronald;Hartford;6;08.06.2023 12:47;1
-307;Andrew;Oklahoma City;82;09.06.2023 12:47;1
-308;Rutherford;Indianapolis;78;10.06.2023 12:47;1
-309;Ronald;Lincoln;82;11.06.2023 12:47;1
-310;Martin;Atlanta;59;12.06.2023 12:47;1
-311;Ulysses;Bismarck;44;13.06.2023 12:47;1
-312;Chester;Cheyenne;52;14.06.2023 12:47;1
-313;Herbert;Atlanta;83;15.06.2023 12:47;1
-314;Benjamin;Montgomery;72;16.06.2023 12:47;1
-315;Lyndon;Jackson;4;17.06.2023 12:47;1
-316;Martin;Albany;70;18.06.2023 12:47;1
-317;Millard;Montpelier;57;19.06.2023 12:47;1
-318;Gerald;Jefferson City;21;20.06.2023 12:47;1
-319;Gerald;Albany;10;21.06.2023 12:47;1
-320;John;Frankfort;26;22.06.2023 12:47;1
-321;Harry;Dover;24;23.06.2023 12:47;1
-322;Warren;Little Rock;3;24.06.2023 12:47;1
-323;Ronald;Augusta;71;25.06.2023 12:47;1
-324;Ulysses;Salt Lake City;25;26.06.2023 12:47;1
-325;Bill;Springfield;28;27.06.2023 12:47;1
-326;Franklin;Albany;67;28.06.2023 12:47;1
-327;Benjamin;Lincoln;41;29.06.2023 12:47;1
-328;Bill;Saint Paul;31;30.06.2023 12:47;1
-329;Lyndon;Lincoln;22;01.07.2023 12:47;1
-330;James;Columbus;70;02.07.2023 12:47;1
-331;Martin;Baton Rouge;28;03.07.2023 12:47;1
-332;Ronald;Columbus;51;04.07.2023 12:47;1
-333;Millard;Montpelier;89;05.07.2023 12:47;1
-334;Herbert;Santa Fe;51;06.07.2023 12:47;1
-335;Theodore;Baton Rouge;6;07.07.2023 12:47;1
-336;Chester;Concord;34;08.07.2023 12:47;1
-337;Woodrow;Dover;69;09.07.2023 12:47;1
-338;Millard;Sacramento;36;10.07.2023 12:47;1
-339;William;Lincoln;76;11.07.2023 12:47;1
-340;George;Baton Rouge;51;12.07.2023 12:47;1
-341;Harry;Tallahassee;37;13.07.2023 12:47;1
-342;Bill;Albany;28;14.07.2023 12:47;1
-343;Harry;Helena;81;15.07.2023 12:47;1
-344;Andrew;Dover;60;16.07.2023 12:47;1
-345;George;Jefferson City;9;17.07.2023 12:47;1
-346;Calvin;Nashville;57;18.07.2023 12:47;1
-347;Jimmy;Trenton;51;19.07.2023 12:47;1
-348;Millard;Juneau;53;20.07.2023 12:47;1
-349;Herbert;Columbus;95;21.07.2023 12:47;1
-350;Zachary;Tallahassee;100;22.07.2023 12:47;1
-351;Harry;Columbia;77;23.07.2023 12:47;1
-352;Gerald;Topeka;81;24.07.2023 12:47;1
-353;Richard;Jefferson City;85;25.07.2023 12:47;1
-354;Woodrow;Indianapolis;45;26.07.2023 12:47;1
-355;Woodrow;Helena;40;27.07.2023 12:47;1
-356;Abraham;Salem;34;28.07.2023 12:47;1
-357;George;Salem;16;29.07.2023 12:47;1
-358;Grover;Des Moines;0;30.07.2023 12:47;1
-359;Abraham;Bismarck;41;31.07.2023 12:47;1
-360;Jimmy;Honolulu;3;01.08.2023 12:47;1
-361;Chester;Lincoln;35;02.08.2023 12:47;1
-362;Rutherford;Juneau;76;03.08.2023 12:47;1
-363;Richard;Albany;86;04.08.2023 12:47;1
-364;Grover;Annapolis;9;05.08.2023 12:47;1
-365;Millard;Dover;96;06.08.2023 12:47;1
-366;Franklin;Bismarck;93;07.08.2023 12:47;1
-367;John;Jackson;76;08.08.2023 12:47;1
-368;Harry;Tallahassee;44;09.08.2023 12:47;1
-369;William;Boston;66;10.08.2023 12:47;1
-370;Harry;Springfield;58;11.08.2023 12:47;1
-371;Woodrow;Charleston;94;12.08.2023 12:47;1
-372;Chester;Honolulu;88;13.08.2023 12:47;1
-373;Thomas;Providence;35;14.08.2023 12:47;1
-374;Benjamin;Dover;1;15.08.2023 12:47;1
-375;Martin;Cheyenne;34;16.08.2023 12:47;1
-376;Ronald;Concord;74;17.08.2023 12:47;1
-377;James;Concord;36;18.08.2023 12:47;1
-378;Warren;Montpelier;92;19.08.2023 12:47;1
-379;Benjamin;Dover;76;20.08.2023 12:47;1
-380;Bill;Raleigh;99;21.08.2023 12:47;1
-381;Benjamin;Nashville;53;22.08.2023 12:47;1
-382;Harry;Richmond;96;23.08.2023 12:47;1
-383;Grover;Pierre;81;24.08.2023 12:47;1
-384;James;Springfield;51;25.08.2023 12:47;1
-385;Woodrow;Columbus;51;26.08.2023 12:47;1
-386;Dwight;Annapolis;98;27.08.2023 12:47;1
-387;Chester;Concord;74;28.08.2023 12:47;1
-388;Andrew;Indianapolis;72;29.08.2023 12:47;1
-389;Lyndon;Pierre;45;30.08.2023 12:47;1
-390;Richard;Concord;100;31.08.2023 12:47;1
-391;William;Lansing;97;01.09.2023 12:47;1
-392;Zachary;Hartford;26;02.09.2023 12:47;1
-393;Calvin;Lansing;40;03.09.2023 12:47;1
-394;Richard;Frankfort;55;04.09.2023 12:47;1
-395;Thomas;Honolulu;47;05.09.2023 12:47;1
-396;Andrew;Frankfort;53;06.09.2023 12:47;1
-397;Benjamin;Carson City;54;07.09.2023 12:47;1
-398;George;Montpelier;78;08.09.2023 12:47;1
-399;Theodore;Annapolis;12;09.09.2023 12:47;1
-400;Abraham;Lincoln;100;10.09.2023 12:47;1
-401;Thomas;Boise;41;11.09.2023 12:47;1
-402;John;Helena;56;12.09.2023 12:47;1
-403;Herbert;Salem;94;13.09.2023 12:47;1
-404;George;Providence;22;14.09.2023 12:47;1
-405;Calvin;Annapolis;19;15.09.2023 12:47;1
-406;William;Juneau;59;16.09.2023 12:47;1
-407;Richard;Boston;99;17.09.2023 12:47;1
-408;Dwight;Jackson;19;18.09.2023 12:47;1
-409;Calvin;Springfield;18;19.09.2023 12:47;1
-410;Gerald;Honolulu;15;20.09.2023 12:47;1
-411;William;Augusta;13;21.09.2023 12:47;1
-412;Dwight;Sacramento;28;22.09.2023 12:47;1
-413;Jimmy;Oklahoma City;94;23.09.2023 12:47;1
-414;Martin;Montpelier;96;24.09.2023 12:47;1
-415;Chester;Des Moines;88;25.09.2023 12:47;1
-416;Woodrow;Salt Lake City;12;26.09.2023 12:47;1
-417;Calvin;Richmond;42;27.09.2023 12:47;1
-418;Andrew;Atlanta;39;28.09.2023 12:47;1
-419;Calvin;Boston;25;29.09.2023 12:47;1
-420;Thomas;Atlanta;27;30.09.2023 12:47;1
-421;Franklin;Hartford;96;01.10.2023 12:47;1
-422;Ronald;Raleigh;87;02.10.2023 12:47;1
-423;Theodore;Annapolis;60;03.10.2023 12:47;1
-424;Benjamin;Salem;99;04.10.2023 12:47;1
-425;Jimmy;Richmond;35;05.10.2023 12:47;1
-426;Martin;Madison;7;06.10.2023 12:47;1
-427;Rutherford;Jefferson City;60;07.10.2023 12:47;1
-428;Richard;Concord;77;08.10.2023 12:47;1
-429;William;Providence;93;09.10.2023 12:47;1
-430;Ronald;Concord;49;10.10.2023 12:47;1
-431;Gerald;Sacramento;69;11.10.2023 12:47;1
-432;Lyndon;Providence;51;12.10.2023 12:47;1
-433;Theodore;Salem;90;13.10.2023 12:47;1
-434;Warren;Boise;81;14.10.2023 12:47;1
-435;Franklin;Lincoln;74;15.10.2023 12:47;1
-436;Bill;Bismarck;66;16.10.2023 12:47;1
-437;Ronald;Boise;78;17.10.2023 12:47;1
-438;Franklin;Montpelier;19;18.10.2023 12:47;1
-439;Woodrow;Richmond;54;19.10.2023 12:47;1
-440;Harry;Augusta;50;20.10.2023 12:47;1
-441;Franklin;Concord;79;21.10.2023 12:47;1
-442;Rutherford;Springfield;18;22.10.2023 12:47;1
-443;William;Concord;95;23.10.2023 12:47;1
-444;Calvin;Bismarck;78;24.10.2023 12:47;1
-445;Andrew;Augusta;50;25.10.2023 12:47;1
-446;James;Annapolis;21;26.10.2023 12:47;1
-447;Zachary;Columbia;99;27.10.2023 12:47;1
-448;Grover;Lincoln;44;28.10.2023 12:47;1
-449;Grover;Richmond;22;29.10.2023 12:47;1
-450;George;Albany;8;30.10.2023 12:47;1
-451;Andrew;Nashville;82;31.10.2023 12:47;1
-452;Martin;Jackson;18;01.11.2023 12:47;1
-453;Andrew;Oklahoma City;3;02.11.2023 12:47;1
-454;Martin;Bismarck;49;03.11.2023 12:47;1
-455;Benjamin;Charleston;57;04.11.2023 12:47;1
-456;Dwight;Hartford;60;05.11.2023 12:47;1
-457;Calvin;Lansing;79;06.11.2023 12:47;1
-458;Gerald;Charleston;12;07.11.2023 12:47;1
-459;Harry;Concord;91;08.11.2023 12:47;1
-460;Lyndon;Boise;35;09.11.2023 12:47;1
-461;Theodore;Harrisburg;24;10.11.2023 12:47;1
-462;Ronald;Albany;57;11.11.2023 12:47;1
-463;Bill;Hartford;43;12.11.2023 12:47;1
-464;Theodore;Boston;66;13.11.2023 12:47;1
-465;Ulysses;Albany;15;14.11.2023 12:47;1
-466;Theodore;Atlanta;37;15.11.2023 12:47;1
-467;Jimmy;Raleigh;70;16.11.2023 12:47;1
-468;Franklin;Jackson;49;17.11.2023 12:47;1
-469;Millard;Richmond;88;18.11.2023 12:47;1
-470;Andrew;Salem;61;19.11.2023 12:47;1
-471;Zachary;Columbia;37;20.11.2023 12:47;1
-472;Theodore;Carson City;17;21.11.2023 12:47;1
-473;Warren;Honolulu;29;22.11.2023 12:47;1
-474;Herbert;Topeka;41;23.11.2023 12:47;1
-475;Dwight;Denver;84;24.11.2023 12:47;1
-476;Grover;Little Rock;36;25.11.2023 12:47;1
-477;Ulysses;Providence;20;26.11.2023 12:47;1
-478;George;Salt Lake City;5;27.11.2023 12:47;1
-479;John;Helena;32;28.11.2023 12:47;1
-480;William;Pierre;6;29.11.2023 12:47;1
-481;Gerald;Cheyenne;14;30.11.2023 12:47;1
-482;Ulysses;Little Rock;99;01.12.2023 12:47;1
-483;Martin;Annapolis;16;02.12.2023 12:47;1
-484;William;Harrisburg;91;03.12.2023 12:47;1
-485;Theodore;Trenton;56;04.12.2023 12:47;1
-486;Martin;Montpelier;66;05.12.2023 12:47;1
-487;Abraham;Cheyenne;5;06.12.2023 12:47;1
-488;Warren;Columbia;11;07.12.2023 12:47;1
-489;Woodrow;Denver;11;08.12.2023 12:47;1
-490;Dwight;Boston;98;09.12.2023 12:47;1
-491;Herbert;Trenton;28;10.12.2023 12:47;1
-492;Martin;Lansing;15;11.12.2023 12:47;1
-493;Ronald;Trenton;6;12.12.2023 12:47;1
-494;Chester;Boise;100;13.12.2023 12:47;1
-495;Theodore;Pierre;79;14.12.2023 12:47;1
-496;Jimmy;Pierre;91;15.12.2023 12:47;1
-497;Bill;Boston;26;16.12.2023 12:47;1
-498;Herbert;Saint Paul;34;17.12.2023 12:47;1
-499;Ulysses;Little Rock;24;18.12.2023 12:47;1
-500;Zachary;Pierre;84;19.12.2023 12:47;1
-501;Thomas;Frankfort;9;20.12.2023 12:47;1
-502;Martin;Annapolis;94;21.12.2023 12:47;1
-503;Jimmy;Charleston;24;22.12.2023 12:47;1
-504;Richard;Oklahoma City;22;23.12.2023 12:47;1
-505;Herbert;Oklahoma City;59;24.12.2023 12:47;1
-506;Franklin;Bismarck;13;25.12.2023 12:47;1
-507;Franklin;Denver;79;26.12.2023 12:47;1
-508;Gerald;Carson City;94;27.12.2023 12:47;1
-509;Ulysses;Oklahoma City;50;28.12.2023 12:47;1
-510;Woodrow;Topeka;53;29.12.2023 12:47;1
-511;John;Santa Fe;8;30.12.2023 12:47;1
-512;Ronald;Tallahassee;57;31.12.2023 12:47;1
-513;Gerald;Atlanta;0;01.01.2024 12:47;1
-514;Richard;Carson City;11;02.01.2024 12:47;1
-515;Benjamin;Denver;50;03.01.2024 12:47;1
-516;Ronald;Trenton;25;04.01.2024 12:47;1
-517;Millard;Baton Rouge;88;05.01.2024 12:47;1
-518;John;Austin;9;06.01.2024 12:47;1
-519;Bill;Lincoln;21;07.01.2024 12:47;1
-520;Theodore;Austin;15;08.01.2024 12:47;1
-521;John;Sacramento;7;09.01.2024 12:47;1
-522;Ronald;Tallahassee;35;10.01.2024 12:47;1
-523;Lyndon;Montgomery;69;11.01.2024 12:47;1
-524;Grover;Springfield;58;12.01.2024 12:47;1
-525;Chester;Charleston;24;13.01.2024 12:47;1
-526;Martin;Boise;62;14.01.2024 12:47;1
-527;Dwight;Montgomery;56;15.01.2024 12:47;1
-528;Jimmy;Olympia;94;16.01.2024 12:47;1
-529;John;Richmond;81;17.01.2024 12:47;1
-530;Jimmy;Dover;37;18.01.2024 12:47;1
-531;Gerald;Jefferson City;12;19.01.2024 12:47;1
-532;Herbert;Frankfort;95;20.01.2024 12:47;1
-533;Richard;Nashville;12;21.01.2024 12:47;1
-534;Benjamin;Springfield;57;22.01.2024 12:47;1
-535;Lyndon;Charleston;96;23.01.2024 12:47;1
-536;Dwight;Pierre;33;24.01.2024 12:47;1
-537;Rutherford;Springfield;53;25.01.2024 12:47;1
-538;Jimmy;Olympia;20;26.01.2024 12:47;1
-539;Jimmy;Phoenix;17;27.01.2024 12:47;1
-540;Franklin;Hartford;36;28.01.2024 12:47;1
-541;Benjamin;Nashville;38;29.01.2024 12:47;1
-542;Dwight;Richmond;80;30.01.2024 12:47;1
-543;Woodrow;Atlanta;74;31.01.2024 12:47;1
-544;Theodore;Santa Fe;68;01.02.2024 12:47;1
-545;Ronald;Phoenix;84;02.02.2024 12:47;1
-546;Martin;Concord;16;03.02.2024 12:47;1
-547;Woodrow;Annapolis;22;04.02.2024 12:47;1
-548;Dwight;Juneau;29;05.02.2024 12:47;1
-549;Dwight;Indianapolis;19;06.02.2024 12:47;1
-550;Rutherford;Helena;0;07.02.2024 12:47;1
-551;Richard;Des Moines;68;08.02.2024 12:47;1
-552;Andrew;Pierre;89;09.02.2024 12:47;1
-553;Richard;Dover;5;10.02.2024 12:47;1
-554;Warren;Concord;3;11.02.2024 12:47;1
-555;Dwight;Annapolis;5;12.02.2024 12:47;1
-556;Bill;Oklahoma City;67;13.02.2024 12:47;1
-557;Grover;Dover;94;14.02.2024 12:47;1
-558;Thomas;Springfield;85;15.02.2024 12:47;1
-559;Theodore;Albany;69;16.02.2024 12:47;1
-560;Grover;Hartford;70;17.02.2024 12:47;1
-561;Harry;Boise;17;18.02.2024 12:47;1
-562;Herbert;Carson City;100;19.02.2024 12:47;1
-563;Abraham;Carson City;42;20.02.2024 12:47;1
-564;Millard;Baton Rouge;42;21.02.2024 12:47;1
-565;John;Atlanta;13;22.02.2024 12:47;1
-566;Ronald;Jackson;44;23.02.2024 12:47;1
-567;Bill;Madison;91;24.02.2024 12:47;1
-568;George;Phoenix;10;25.02.2024 12:47;1
-569;Andrew;Salem;60;26.02.2024 12:47;1
-570;Zachary;Bismarck;21;27.02.2024 12:47;1
-571;Bill;Jefferson City;61;28.02.2024 12:47;1
-572;Herbert;Baton Rouge;37;29.02.2024 12:47;1
-573;Chester;Des Moines;19;01.03.2024 12:47;1
-574;Woodrow;Baton Rouge;67;02.03.2024 12:47;1
-575;James;Lansing;19;03.03.2024 12:47;1
-576;Woodrow;Harrisburg;76;04.03.2024 12:47;1
-577;Ronald;Dover;57;05.03.2024 12:47;1
-578;Zachary;Santa Fe;95;06.03.2024 12:47;1
-579;Andrew;Olympia;76;07.03.2024 12:47;1
-580;Grover;Austin;95;08.03.2024 12:47;1
-581;Franklin;Denver;45;09.03.2024 12:47;1
-582;Martin;Cheyenne;13;10.03.2024 12:47;1
-583;Millard;Boise;51;11.03.2024 12:47;1
-584;George;Atlanta;84;12.03.2024 12:47;1
-585;Gerald;Cheyenne;8;13.03.2024 12:47;1
-586;Woodrow;Springfield;30;14.03.2024 12:47;1
-587;Zachary;Richmond;23;15.03.2024 12:47;1
-588;William;Richmond;18;16.03.2024 12:47;1
-589;Harry;Sacramento;86;17.03.2024 12:47;1
-590;Lyndon;Richmond;2;18.03.2024 12:47;1
-591;Herbert;Charleston;83;19.03.2024 12:47;1
-592;John;Augusta;3;20.03.2024 12:47;1
-593;Benjamin;Hartford;63;21.03.2024 12:47;1
-594;Rutherford;Boise;1;22.03.2024 12:47;1
-595;Harry;Frankfort;85;23.03.2024 12:47;1
-596;Gerald;Baton Rouge;15;24.03.2024 12:47;1
-597;Calvin;Santa Fe;86;25.03.2024 12:47;1
-598;Dwight;Trenton;23;26.03.2024 12:47;1
-599;Abraham;Juneau;93;27.03.2024 12:47;1
-600;John;Richmond;16;28.03.2024 12:47;1
-601;Herbert;Charleston;37;29.03.2024 12:47;1
-602;Andrew;Boston;50;30.03.2024 12:47;1
-603;Calvin;Springfield;73;31.03.2024 12:47;1
-604;Chester;Oklahoma City;48;01.04.2024 12:47;1
-605;William;Oklahoma City;77;02.04.2024 12:47;1
-606;Warren;Olympia;10;03.04.2024 12:47;1
-607;Warren;Little Rock;64;04.04.2024 12:47;1
-608;Franklin;Augusta;51;05.04.2024 12:47;1
-609;George;Atlanta;60;06.04.2024 12:47;1
-610;James;Trenton;28;07.04.2024 12:47;1
-611;Warren;Dover;76;08.04.2024 12:47;1
-612;Lyndon;Montpelier;81;09.04.2024 12:47;1
-613;Richard;Cheyenne;37;10.04.2024 12:47;1
-614;Grover;Lansing;88;11.04.2024 12:47;1
-615;Dwight;Salt Lake City;7;12.04.2024 12:47;1
-616;Theodore;Montpelier;17;13.04.2024 12:47;1
-617;Franklin;Richmond;68;14.04.2024 12:47;1
-618;Richard;Helena;100;15.04.2024 12:47;1
-619;Gerald;Helena;72;16.04.2024 12:47;1
-620;Martin;Trenton;6;17.04.2024 12:47;1
-621;John;Honolulu;23;18.04.2024 12:47;1
-622;Benjamin;Albany;55;19.04.2024 12:47;1
-623;Jimmy;Juneau;34;20.04.2024 12:47;1
-624;Rutherford;Jackson;4;21.04.2024 12:47;1
-625;William;Columbia;36;22.04.2024 12:47;1
-626;Ulysses;Nashville;68;23.04.2024 12:47;1
-627;Martin;Madison;62;24.04.2024 12:47;1
-628;John;Salt Lake City;69;25.04.2024 12:47;1
-629;Bill;Richmond;38;26.04.2024 12:47;1
-630;George;Harrisburg;9;27.04.2024 12:47;1
-631;Grover;Phoenix;22;28.04.2024 12:47;1
-632;Millard;Atlanta;51;29.04.2024 12:47;1
-633;Herbert;Springfield;70;30.04.2024 12:47;1
-634;Calvin;Topeka;99;01.05.2024 12:47;1
-635;Rutherford;Des Moines;82;02.05.2024 12:47;1
-636;James;Raleigh;96;03.05.2024 12:47;1
-637;Ronald;Pierre;49;04.05.2024 12:47;1
-638;Chester;Juneau;37;05.05.2024 12:47;1
-639;Ulysses;Jackson;40;06.05.2024 12:47;1
-640;Harry;Madison;74;07.05.2024 12:47;1
-641;Abraham;Bismarck;17;08.05.2024 12:47;1
-642;Ronald;Richmond;88;09.05.2024 12:47;1
-643;Abraham;Little Rock;65;10.05.2024 12:47;1
-644;Calvin;Frankfort;52;11.05.2024 12:47;1
-645;James;Olympia;19;12.05.2024 12:47;1
-646;Warren;Little Rock;97;13.05.2024 12:47;1
-647;James;Boston;36;14.05.2024 12:47;1
-648;Millard;Nashville;17;15.05.2024 12:47;1
-649;Rutherford;Lincoln;25;16.05.2024 12:47;1
-650;Millard;Denver;92;17.05.2024 12:47;1
-651;Benjamin;Helena;99;18.05.2024 12:47;1
-652;George;Albany;1;19.05.2024 12:47;1
-653;Millard;Lansing;26;20.05.2024 12:47;1
-654;Lyndon;Dover;38;21.05.2024 12:47;1
-655;Andrew;Concord;80;22.05.2024 12:47;1
-656;Bill;Hartford;29;23.05.2024 12:47;1
-657;William;Hartford;6;24.05.2024 12:47;1
-658;Gerald;Des Moines;12;25.05.2024 12:47;1
-659;Calvin;Helena;77;26.05.2024 12:47;1
-660;Woodrow;Baton Rouge;82;27.05.2024 12:47;1
-661;Thomas;Indianapolis;8;28.05.2024 12:47;1
-662;Andrew;Oklahoma City;16;29.05.2024 12:47;1
-663;Bill;Frankfort;99;30.05.2024 12:47;1
-664;Warren;Lansing;52;31.05.2024 12:47;1
-665;Richard;Annapolis;49;01.06.2024 12:47;1
-666;Harry;Charleston;78;02.06.2024 12:47;1
-667;John;Columbus;87;03.06.2024 12:47;1
-668;Richard;Springfield;48;04.06.2024 12:47;1
-669;Millard;Providence;36;05.06.2024 12:47;1
-670;Jimmy;Madison;0;06.06.2024 12:47;1
-671;Jimmy;Juneau;9;07.06.2024 12:47;1
-672;Warren;Saint Paul;63;08.06.2024 12:47;1
-673;Jimmy;Baton Rouge;60;09.06.2024 12:47;1
-674;George;Phoenix;100;10.06.2024 12:47;1
-675;Andrew;Cheyenne;76;11.06.2024 12:47;1
-676;Dwight;Nashville;56;12.06.2024 12:47;1
-677;Gerald;Raleigh;25;13.06.2024 12:47;1
-678;Warren;Santa Fe;20;14.06.2024 12:47;1
-679;Ronald;Salt Lake City;26;15.06.2024 12:47;1
-680;Andrew;Trenton;48;16.06.2024 12:47;1
-681;Harry;Raleigh;86;17.06.2024 12:47;1
-682;William;Bismarck;47;18.06.2024 12:47;1
-683;James;Lansing;27;19.06.2024 12:47;1
-684;Harry;Santa Fe;16;20.06.2024 12:47;1
-685;Franklin;Boise;12;21.06.2024 12:47;1
-686;Franklin;Annapolis;73;22.06.2024 12:47;1
-687;Martin;Carson City;94;23.06.2024 12:47;1
-688;Ulysses;Jackson;3;24.06.2024 12:47;1
-689;James;Charleston;9;25.06.2024 12:47;1
-690;Thomas;Juneau;26;26.06.2024 12:47;1
-691;Lyndon;Jackson;47;27.06.2024 12:47;1
-692;Andrew;Augusta;66;28.06.2024 12:47;1
-693;William;Olympia;64;29.06.2024 12:47;1
-694;Ulysses;Cheyenne;1;30.06.2024 12:47;1
-695;Franklin;Santa Fe;61;01.07.2024 12:47;1
-696;Ronald;Helena;26;02.07.2024 12:47;1
-697;Herbert;Tallahassee;90;03.07.2024 12:47;1
-698;William;Harrisburg;29;04.07.2024 12:47;1
-699;James;Carson City;20;05.07.2024 12:47;1
-700;Woodrow;Annapolis;78;06.07.2024 12:47;1
-701;Chester;Little Rock;92;07.07.2024 12:47;1
-702;Dwight;Augusta;80;08.07.2024 12:47;1
-703;Jimmy;Providence;43;09.07.2024 12:47;1
-704;James;Baton Rouge;38;10.07.2024 12:47;1
-705;Ulysses;Hartford;31;11.07.2024 12:47;1
-706;Millard;Concord;89;12.07.2024 12:47;1
-707;Bill;Tallahassee;12;13.07.2024 12:47;1
-708;Millard;Boise;58;14.07.2024 12:47;1
-709;Rutherford;Pierre;38;15.07.2024 12:47;1
-710;John;Augusta;41;16.07.2024 12:47;1
-711;Rutherford;Saint Paul;47;17.07.2024 12:47;1
-712;Millard;Albany;63;18.07.2024 12:47;1
-713;Lyndon;Indianapolis;77;19.07.2024 12:47;1
-714;Chester;Oklahoma City;1;20.07.2024 12:47;1
-715;Warren;Phoenix;87;21.07.2024 12:47;1
-716;Warren;Jackson;49;22.07.2024 12:47;1
-717;William;Helena;52;23.07.2024 12:47;1
-718;Bill;Charleston;50;24.07.2024 12:47;1
-719;Warren;Atlanta;24;25.07.2024 12:47;1
-720;George;Nashville;33;26.07.2024 12:47;1
-721;Gerald;Denver;73;27.07.2024 12:47;1
-722;Warren;Madison;65;28.07.2024 12:47;1
-723;Franklin;Boston;95;29.07.2024 12:47;1
-724;Chester;Providence;66;30.07.2024 12:47;1
-725;Gerald;Denver;31;31.07.2024 12:47;1
-726;Millard;Harrisburg;86;01.08.2024 12:47;1
-727;Millard;Little Rock;34;02.08.2024 12:47;1
-728;Calvin;Oklahoma City;31;03.08.2024 12:47;1
-729;James;Boise;19;04.08.2024 12:47;1
-730;Rutherford;Augusta;91;05.08.2024 12:47;1
-731;Jimmy;Jackson;37;06.08.2024 12:47;1
-732;Franklin;Austin;77;07.08.2024 12:47;1
-733;Bill;Jefferson City;68;08.08.2024 12:47;1
-734;Ulysses;Austin;32;09.08.2024 12:47;1
-735;William;Helena;49;10.08.2024 12:47;1
-736;Franklin;Lansing;84;11.08.2024 12:47;1
-737;William;Austin;26;12.08.2024 12:47;1
-738;Millard;Augusta;68;13.08.2024 12:47;1
-739;Benjamin;Denver;59;14.08.2024 12:47;1
-740;Richard;Montgomery;99;15.08.2024 12:47;1
-741;Thomas;Austin;28;16.08.2024 12:47;1
-742;Harry;Lincoln;43;17.08.2024 12:47;1
-743;Jimmy;Carson City;18;18.08.2024 12:47;1
-744;Gerald;Carson City;51;19.08.2024 12:47;1
-745;Bill;Hartford;28;20.08.2024 12:47;1
-746;John;Austin;55;21.08.2024 12:47;1
-747;Lyndon;Albany;67;22.08.2024 12:47;1
-748;Herbert;Jackson;81;23.08.2024 12:47;1
-749;Millard;Trenton;43;24.08.2024 12:47;1
-750;Zachary;Charleston;3;25.08.2024 12:47;1
-751;Theodore;Salem;47;26.08.2024 12:47;2
-752;George;Charleston;52;27.08.2024 12:47;2
-753;Ulysses;Concord;71;28.08.2024 12:47;2
-754;Dwight;Atlanta;99;29.08.2024 12:47;2
-755;Rutherford;Tallahassee;72;30.08.2024 12:47;2
-756;Lyndon;Des Moines;89;31.08.2024 12:47;2
-757;Franklin;Harrisburg;88;01.09.2024 12:47;2
-758;John;Providence;13;02.09.2024 12:47;2
-759;Dwight;Sacramento;67;03.09.2024 12:47;2
-760;Harry;Boise;46;04.09.2024 12:47;2
-761;James;Sacramento;34;05.09.2024 12:47;2
-762;Abraham;Saint Paul;43;06.09.2024 12:47;2
-763;Millard;Augusta;17;07.09.2024 12:47;2
-764;Theodore;Des Moines;7;08.09.2024 12:47;2
-765;Jimmy;Hartford;96;09.09.2024 12:47;2
-766;Ronald;Topeka;19;10.09.2024 12:47;2
-767;Zachary;Topeka;24;11.09.2024 12:47;2
-768;Gerald;Concord;3;12.09.2024 12:47;2
-769;Martin;Concord;88;13.09.2024 12:47;2
-770;William;Boston;41;14.09.2024 12:47;2
-771;Ronald;Springfield;39;15.09.2024 12:47;2
-772;Warren;Jefferson City;66;16.09.2024 12:47;2
-773;Harry;Columbia;26;17.09.2024 12:47;2
-774;Zachary;Boston;62;18.09.2024 12:47;2
-775;Martin;Salt Lake City;12;19.09.2024 12:47;2
-776;Franklin;Little Rock;99;20.09.2024 12:47;2
-777;Martin;Madison;4;21.09.2024 12:47;2
-778;Dwight;Charleston;47;22.09.2024 12:47;2
-779;Andrew;Providence;48;23.09.2024 12:47;2
-780;Theodore;Annapolis;54;24.09.2024 12:47;2
-781;Lyndon;Columbus;18;25.09.2024 12:47;2
-782;Harry;Frankfort;66;26.09.2024 12:47;2
-783;Warren;Jackson;62;27.09.2024 12:47;2
-784;Herbert;Dover;8;28.09.2024 12:47;2
-785;James;Pierre;20;29.09.2024 12:47;2
-786;William;Phoenix;72;30.09.2024 12:47;2
-787;Andrew;Jackson;35;01.10.2024 12:47;2
-788;Warren;Topeka;95;02.10.2024 12:47;2
-789;Thomas;Salt Lake City;21;03.10.2024 12:47;2
-790;John;Charleston;70;04.10.2024 12:47;2
-791;Rutherford;Providence;84;05.10.2024 12:47;2
-792;Harry;Boston;74;06.10.2024 12:47;2
-793;William;Cheyenne;87;07.10.2024 12:47;2
-794;Lyndon;Juneau;26;08.10.2024 12:47;2
-795;Millard;Madison;38;09.10.2024 12:47;2
-796;Harry;Phoenix;69;10.10.2024 12:47;2
-797;Calvin;Boston;13;11.10.2024 12:47;2
-798;William;Richmond;60;12.10.2024 12:47;2
-799;Jimmy;Boise;54;13.10.2024 12:47;2
-800;Dwight;Olympia;21;14.10.2024 12:47;2
-801;Richard;Albany;8;15.10.2024 12:47;2
-802;Richard;Concord;2;16.10.2024 12:47;2
-803;George;Sacramento;95;17.10.2024 12:47;2
-804;Bill;Harrisburg;55;18.10.2024 12:47;2
-805;Lyndon;Lansing;39;19.10.2024 12:47;2
-806;Calvin;Atlanta;97;20.10.2024 12:47;2
-807;Franklin;Oklahoma City;96;21.10.2024 12:47;2
-808;John;Topeka;65;22.10.2024 12:47;2
-809;Benjamin;Richmond;67;23.10.2024 12:47;2
-810;Gerald;Richmond;19;24.10.2024 12:47;2
-811;Richard;Dover;15;25.10.2024 12:47;2
-812;Gerald;Hartford;72;26.10.2024 12:47;2
-813;John;Nashville;86;27.10.2024 12:47;2
-814;Grover;Augusta;84;28.10.2024 12:47;2
-815;Woodrow;Albany;20;29.10.2024 12:47;2
-816;Theodore;Sacramento;92;30.10.2024 12:47;2
-817;John;Nashville;81;31.10.2024 12:47;2
-818;Abraham;Santa Fe;25;01.11.2024 12:47;2
-819;Calvin;Charleston;6;02.11.2024 12:47;2
-820;George;Salem;42;03.11.2024 12:47;2
-821;Theodore;Baton Rouge;81;04.11.2024 12:47;2
-822;Gerald;Albany;70;05.11.2024 12:47;2
-823;Lyndon;Indianapolis;10;06.11.2024 12:47;2
-824;Abraham;Columbus;1;07.11.2024 12:47;2
-825;Abraham;Salt Lake City;21;08.11.2024 12:47;2
-826;Grover;Indianapolis;65;09.11.2024 12:47;2
-827;Richard;Denver;66;10.11.2024 12:47;2
-828;Grover;Richmond;72;11.11.2024 12:47;2
-829;Chester;Columbus;94;12.11.2024 12:47;2
-830;George;Des Moines;38;13.11.2024 12:47;2
-831;Martin;Salt Lake City;99;14.11.2024 12:47;2
-832;Rutherford;Salt Lake City;34;15.11.2024 12:47;2
-833;Jimmy;Augusta;45;16.11.2024 12:47;2
-834;Thomas;Frankfort;49;17.11.2024 12:47;2
-835;Franklin;Providence;100;18.11.2024 12:47;2
-836;Chester;Providence;59;19.11.2024 12:47;2
-837;Gerald;Columbia;97;20.11.2024 12:47;2
-838;Grover;Atlanta;7;21.11.2024 12:47;2
-839;Bill;Des Moines;48;22.11.2024 12:47;2
-840;Martin;Denver;60;23.11.2024 12:47;2
-841;Abraham;Baton Rouge;91;24.11.2024 12:47;2
-842;John;Atlanta;14;25.11.2024 12:47;2
-843;George;Tallahassee;32;26.11.2024 12:47;2
-844;Grover;Nashville;13;27.11.2024 12:47;2
-845;Franklin;Juneau;61;28.11.2024 12:47;2
-846;Theodore;Albany;50;29.11.2024 12:47;2
-847;George;Denver;38;30.11.2024 12:47;2
-848;John;Nashville;63;01.12.2024 12:47;2
-849;Richard;Santa Fe;55;02.12.2024 12:47;2
-850;Thomas;Sacramento;94;03.12.2024 12:47;2
-851;Jimmy;Carson City;96;04.12.2024 12:47;2
-852;Grover;Austin;89;05.12.2024 12:47;2
-853;John;Austin;52;06.12.2024 12:47;2
-854;Chester;Helena;30;07.12.2024 12:47;2
-855;Ulysses;Indianapolis;35;08.12.2024 12:47;2
-856;Theodore;Denver;6;09.12.2024 12:47;2
-857;Bill;Topeka;56;10.12.2024 12:47;2
-858;Dwight;Montpelier;34;11.12.2024 12:47;2
-859;James;Denver;71;12.12.2024 12:47;2
-860;James;Nashville;62;13.12.2024 12:47;2
-861;Jimmy;Providence;63;14.12.2024 12:47;2
-862;James;Frankfort;23;15.12.2024 12:47;2
-863;Calvin;Santa Fe;76;16.12.2024 12:47;2
-864;Zachary;Topeka;55;17.12.2024 12:47;2
-865;Gerald;Cheyenne;56;18.12.2024 12:47;2
-866;Dwight;Columbia;60;19.12.2024 12:47;2
-867;Bill;Topeka;97;20.12.2024 12:47;2
-868;George;Carson City;71;21.12.2024 12:47;2
-869;Franklin;Sacramento;73;22.12.2024 12:47;2
-870;Millard;Hartford;90;23.12.2024 12:47;2
-871;Herbert;Olympia;43;24.12.2024 12:47;2
-872;Ronald;Salem;85;25.12.2024 12:47;2
-873;Chester;Lincoln;9;26.12.2024 12:47;2
-874;William;Columbus;69;27.12.2024 12:47;2
-875;George;Columbia;15;28.12.2024 12:47;2
-876;Chester;Concord;71;29.12.2024 12:47;2
-877;Grover;Pierre;30;30.12.2024 12:47;2
-878;Dwight;Trenton;62;31.12.2024 12:47;2
-879;Theodore;Pierre;66;01.01.2025 12:47;2
-880;John;Raleigh;37;02.01.2025 12:47;2
-881;George;Providence;13;03.01.2025 12:47;2
-882;Gerald;Charleston;66;04.01.2025 12:47;2
-883;Harry;Atlanta;15;05.01.2025 12:47;2
-884;James;Bismarck;25;06.01.2025 12:47;2
-885;Bill;Cheyenne;64;07.01.2025 12:47;2
-886;Zachary;Lincoln;87;08.01.2025 12:47;2
-887;Millard;Little Rock;24;09.01.2025 12:47;2
-888;Millard;Hartford;59;10.01.2025 12:47;2
-889;Andrew;Santa Fe;48;11.01.2025 12:47;2
-890;Gerald;Lincoln;9;12.01.2025 12:47;2
-891;Jimmy;Juneau;72;13.01.2025 12:47;2
-892;Grover;Albany;84;14.01.2025 12:47;2
-893;Millard;Oklahoma City;74;15.01.2025 12:47;2
-894;Rutherford;Nashville;31;16.01.2025 12:47;2
-895;Benjamin;Bismarck;46;17.01.2025 12:47;2
-896;Millard;Saint Paul;21;18.01.2025 12:47;2
-897;Ulysses;Honolulu;61;19.01.2025 12:47;2
-898;Millard;Tallahassee;59;20.01.2025 12:47;2
-899;Dwight;Raleigh;42;21.01.2025 12:47;2
-900;James;Honolulu;34;22.01.2025 12:47;2
-901;Harry;Austin;56;23.01.2025 12:47;2
-902;Lyndon;Harrisburg;12;24.01.2025 12:47;2
-903;Rutherford;Columbia;75;25.01.2025 12:47;2
-904;Benjamin;Pierre;58;26.01.2025 12:47;2
-905;Andrew;Lansing;8;27.01.2025 12:47;2
-906;Bill;Honolulu;28;28.01.2025 12:47;2
-907;Richard;Frankfort;86;29.01.2025 12:47;2
-908;Benjamin;Sacramento;21;30.01.2025 12:47;2
-909;Theodore;Honolulu;65;31.01.2025 12:47;2
-910;Grover;Honolulu;89;01.02.2025 12:47;2
-911;Gerald;Springfield;24;02.02.2025 12:47;2
-912;Woodrow;Annapolis;100;03.02.2025 12:47;2
-913;Ronald;Montpelier;27;04.02.2025 12:47;2
-914;Thomas;Columbia;0;05.02.2025 12:47;2
-915;Lyndon;Albany;25;06.02.2025 12:47;2
-916;James;Madison;83;07.02.2025 12:47;2
-917;Ulysses;Boston;72;08.02.2025 12:47;2
-918;Grover;Augusta;88;09.02.2025 12:47;2
-919;Thomas;Pierre;87;10.02.2025 12:47;2
-920;Herbert;Frankfort;51;11.02.2025 12:47;2
-921;Jimmy;Frankfort;34;12.02.2025 12:47;2
-922;John;Providence;57;13.02.2025 12:47;2
-923;Herbert;Boston;8;14.02.2025 12:47;2
-924;Zachary;Cheyenne;57;15.02.2025 12:47;2
-925;William;Madison;25;16.02.2025 12:47;2
-926;Abraham;Albany;99;17.02.2025 12:47;2
-927;Franklin;Denver;43;18.02.2025 12:47;2
-928;Ronald;Austin;27;19.02.2025 12:47;2
-929;Dwight;Little Rock;21;20.02.2025 12:47;2
-930;Millard;Bismarck;92;21.02.2025 12:47;2
-931;Dwight;Springfield;31;22.02.2025 12:47;2
-932;Andrew;Frankfort;49;23.02.2025 12:47;2
-933;Dwight;Concord;16;24.02.2025 12:47;2
-934;Gerald;Honolulu;64;25.02.2025 12:47;2
-935;Thomas;Carson City;3;26.02.2025 12:47;2
-936;Bill;Atlanta;89;27.02.2025 12:47;2
-937;Thomas;Columbus;83;28.02.2025 12:47;2
-938;William;Little Rock;8;01.03.2025 12:47;2
-939;Ulysses;Honolulu;48;02.03.2025 12:47;2
-940;Thomas;Concord;77;03.03.2025 12:47;2
-941;Woodrow;Raleigh;5;04.03.2025 12:47;2
-942;Martin;Bismarck;73;05.03.2025 12:47;2
-943;Herbert;Hartford;69;06.03.2025 12:47;2
-944;Calvin;Baton Rouge;17;07.03.2025 12:47;2
-945;Martin;Augusta;47;08.03.2025 12:47;2
-946;Lyndon;Richmond;81;09.03.2025 12:47;2
-947;Dwight;Carson City;36;10.03.2025 12:47;2
-948;Chester;Juneau;74;11.03.2025 12:47;2
-949;Gerald;Lansing;35;12.03.2025 12:47;2
-950;Ulysses;Boise;6;13.03.2025 12:47;2
-951;Zachary;Columbus;30;14.03.2025 12:47;2
-952;Ronald;Richmond;37;15.03.2025 12:47;2
-953;John;Charleston;72;16.03.2025 12:47;2
-954;Andrew;Nashville;79;17.03.2025 12:47;2
-955;Harry;Saint Paul;84;18.03.2025 12:47;2
-956;Martin;Providence;60;19.03.2025 12:47;2
-957;Martin;Pierre;80;20.03.2025 12:47;2
-958;James;Charleston;54;21.03.2025 12:47;2
-959;James;Saint Paul;95;22.03.2025 12:47;2
-960;Chester;Jackson;15;23.03.2025 12:47;2
-961;Theodore;Atlanta;40;24.03.2025 12:47;2
-962;Grover;Jefferson City;90;25.03.2025 12:47;2
-963;Andrew;Annapolis;26;26.03.2025 12:47;2
-964;Bill;Denver;9;27.03.2025 12:47;2
-965;Lyndon;Columbus;31;28.03.2025 12:47;2
-966;Dwight;Pierre;56;29.03.2025 12:47;2
-967;Ronald;Baton Rouge;100;30.03.2025 12:47;2
-968;Herbert;Jefferson City;74;31.03.2025 12:47;2
-969;Richard;Columbus;34;01.04.2025 12:47;2
-970;Theodore;Trenton;43;02.04.2025 12:47;2
-971;Chester;Concord;52;03.04.2025 12:47;2
-972;Chester;Boston;89;04.04.2025 12:47;2
-973;Theodore;Oklahoma City;31;05.04.2025 12:47;2
-974;Dwight;Salem;98;06.04.2025 12:47;2
-975;Thomas;Lincoln;85;07.04.2025 12:47;2
-976;James;Lincoln;52;08.04.2025 12:47;2
-977;Ronald;Oklahoma City;80;09.04.2025 12:47;2
-978;Herbert;Denver;90;10.04.2025 12:47;2
-979;Lyndon;Richmond;74;11.04.2025 12:47;2
-980;Herbert;Santa Fe;52;12.04.2025 12:47;2
-981;Dwight;Nashville;62;13.04.2025 12:47;2
-982;Millard;Indianapolis;17;14.04.2025 12:47;2
-983;Chester;Lansing;78;15.04.2025 12:47;2
-984;Grover;Columbia;43;16.04.2025 12:47;2
-985;Rutherford;Jefferson City;83;17.04.2025 12:47;2
-986;Warren;Richmond;58;18.04.2025 12:47;2
-987;Thomas;Atlanta;69;19.04.2025 12:47;2
-988;Ulysses;Little Rock;51;20.04.2025 12:47;2
-989;Calvin;Harrisburg;71;21.04.2025 12:47;2
-990;Woodrow;Atlanta;57;22.04.2025 12:47;2
-991;Millard;Albany;74;23.04.2025 12:47;2
-992;Woodrow;Oklahoma City;77;24.04.2025 12:47;3
-993;Warren;Sacramento;9;25.04.2025 12:47;3
-994;Harry;Madison;20;26.04.2025 12:47;3
-995;Lyndon;Columbia;4;27.04.2025 12:47;3
-996;Woodrow;Salt Lake City;47;28.04.2025 12:47;3
-997;Gerald;Montpelier;27;29.04.2025 12:47;3
-998;Thomas;Trenton;69;30.04.2025 12:47;3
-999;Harry;Atlanta;18;01.05.2025 12:47;3
+id;name;city;age;version
+0;Rutherford;Cheyenne;70;1
+1;Theodore;Tallahassee;15;1
+2;Dwight;Atlanta;100;1
+3;Ronald;Columbus;66;1
+4;Thomas;Salem;18;1
+5;Theodore;Albany;12;1
+6;Lyndon;Santa Fe;99;1
+7;John;Oklahoma City;50;1
+8;Lyndon;Oklahoma City;25;1
+9;William;Saint Paul;78;1
+10;Ronald;Tallahassee;83;1
+11;Abraham;Charleston;83;1
+12;George;Baton Rouge;88;1
+13;Martin;Bismarck;98;1
+14;Harry;Montpelier;49;1
+15;Chester;Madison;98;1
+16;Calvin;Baton Rouge;73;1
+17;Franklin;Annapolis;91;1
+18;Theodore;Dover;99;1
+19;Grover;Jefferson City;59;1
+20;Woodrow;Bismarck;69;1
+21;Franklin;Carson City;71;1
+22;Lyndon;Springfield;26;1
+23;Dwight;Austin;91;1
+24;Benjamin;Hartford;96;1
+25;Chester;Sacramento;80;1
+26;Millard;Pierre;0;1
+27;George;Helena;73;1
+28;Theodore;Little Rock;100;1
+29;Thomas;Tallahassee;78;1
+30;Richard;Concord;65;1
+31;George;Columbia;45;1
+32;Grover;Baton Rouge;24;1
+33;Rutherford;Olympia;46;1
+34;George;Phoenix;9;1
+35;Herbert;Annapolis;85;1
+36;George;Montpelier;59;1
+37;Andrew;Montpelier;54;1
+38;Richard;Carson City;18;1
+39;Benjamin;Lansing;82;1
+40;Grover;Saint Paul;34;1
+41;Jimmy;Topeka;43;1
+42;Ronald;Honolulu;44;1
+43;Bill;Salem;76;1
+44;Richard;Montgomery;78;1
+45;Benjamin;Pierre;65;1
+46;Bill;Olympia;99;1
+47;Rutherford;Hartford;54;1
+48;Rutherford;Oklahoma City;11;1
+49;Woodrow;Sacramento;74;1
+50;Chester;Indianapolis;41;1
+51;Harry;Jefferson City;55;1
+52;Warren;Jefferson City;91;1
+53;Andrew;Montgomery;22;1
+54;Thomas;Trenton;0;1
+55;John;Harrisburg;32;1
+56;Ulysses;Carson City;9;1
+57;George;Pierre;97;1
+58;Woodrow;Saint Paul;58;1
+59;Franklin;Olympia;53;1
+60;Andrew;Salem;45;1
+61;Thomas;Helena;33;1
+62;Millard;Charleston;66;1
+63;Woodrow;Jefferson City;22;1
+64;Calvin;Indianapolis;19;1
+65;Benjamin;Richmond;30;1
+66;Dwight;Albany;14;1
+67;John;Des Moines;80;1
+68;Herbert;Boston;97;1
+69;William;Dover;0;1
+70;Benjamin;Austin;55;1
+71;Calvin;Tallahassee;67;1
+72;Jimmy;Cheyenne;31;1
+73;Warren;Richmond;16;1
+74;Bill;Olympia;27;1
+75;Zachary;Dover;16;1
+76;Millard;Albany;82;1
+77;Warren;Santa Fe;88;1
+78;Ronald;Providence;63;1
+79;Abraham;Juneau;88;1
+80;Andrew;Salem;77;1
+81;Theodore;Juneau;88;1
+82;Ulysses;Columbia;46;1
+83;William;Montpelier;56;1
+84;Andrew;Denver;28;1
+85;George;Montgomery;20;1
+86;John;Lincoln;79;1
+87;Ulysses;Little Rock;65;1
+88;Chester;Richmond;0;1
+89;Ulysses;Phoenix;52;1
+90;Chester;Boise;9;1
+91;Ulysses;Carson City;52;1
+92;Grover;Salt Lake City;9;1
+93;Gerald;Hartford;64;1
+94;Harry;Trenton;53;1
+95;Ronald;Carson City;26;1
+96;Dwight;Oklahoma City;81;1
+97;Richard;Indianapolis;19;1
+98;Theodore;Raleigh;21;1
+99;Jimmy;Hartford;95;1
+100;Grover;Lansing;16;1
+101;Dwight;Juneau;4;1
+102;Richard;Tallahassee;95;1
+103;Chester;Cheyenne;46;1
+104;Martin;Honolulu;82;1
+105;Martin;Carson City;63;1
+106;Woodrow;Phoenix;89;1
+107;Calvin;Annapolis;55;1
+108;Benjamin;Lincoln;61;1
+109;Bill;Montpelier;58;1
+110;Theodore;Pierre;54;1
+111;Thomas;Annapolis;20;1
+112;James;Olympia;46;1
+113;Franklin;Frankfort;83;1
+114;Martin;Salt Lake City;36;1
+115;Ronald;Carson City;76;1
+116;Andrew;Annapolis;45;1
+117;Thomas;Frankfort;14;1
+118;Lyndon;Jackson;65;1
+119;Jimmy;Atlanta;21;1
+120;Grover;Raleigh;33;1
+121;Andrew;Juneau;26;1
+122;Chester;Tallahassee;50;1
+123;Rutherford;Baton Rouge;4;1
+124;Abraham;Frankfort;15;1
+125;Woodrow;Jefferson City;45;1
+126;James;Annapolis;6;1
+127;Bill;Montpelier;28;1
+128;Bill;Indianapolis;8;1
+129;Dwight;Charleston;68;1
+130;George;Dover;72;1
+131;Herbert;Charleston;59;1
+132;John;Richmond;5;1
+133;William;Bismarck;22;1
+134;Chester;Richmond;55;1
+135;Richard;Juneau;79;1
+136;Rutherford;Austin;33;1
+137;Martin;Jackson;47;1
+138;Harry;Columbia;11;1
+139;Zachary;Baton Rouge;75;1
+140;Zachary;Harrisburg;69;1
+141;Grover;Jefferson City;36;1
+142;Grover;Harrisburg;96;1
+143;Harry;Cheyenne;40;1
+144;Benjamin;Charleston;88;1
+145;Harry;Helena;25;1
+146;Lyndon;Baton Rouge;23;1
+147;Thomas;Bismarck;64;1
+148;James;Madison;6;1
+149;Calvin;Columbia;85;1
+150;Grover;Helena;90;1
+151;Chester;Honolulu;39;1
+152;Rutherford;Springfield;66;1
+153;Calvin;Juneau;55;1
+154;Lyndon;Springfield;65;1
+155;James;Tallahassee;13;1
+156;Grover;Charleston;87;1
+157;Benjamin;Lincoln;41;1
+158;Jimmy;Trenton;31;1
+159;John;Richmond;81;1
+160;Millard;Pierre;71;1
+161;Chester;Jefferson City;42;1
+162;Richard;Columbia;24;1
+163;Harry;Cheyenne;96;1
+164;Chester;Jefferson City;20;1
+165;Dwight;Boston;1;1
+166;Benjamin;Helena;83;1
+167;William;Lincoln;83;1
+168;Bill;Juneau;16;1
+169;Warren;Harrisburg;83;1
+170;William;Albany;10;1
+171;Theodore;Indianapolis;85;1
+172;Richard;Olympia;90;1
+173;Zachary;Carson City;47;1
+174;Herbert;Dover;62;1
+175;Herbert;Trenton;27;1
+176;Dwight;Austin;27;1
+177;John;Lansing;28;1
+178;Ronald;Atlanta;1;1
+179;Ronald;Denver;45;1
+180;Andrew;Montpelier;9;1
+181;Theodore;Lansing;39;1
+182;Chester;Montgomery;23;1
+183;Richard;Atlanta;27;1
+184;Lyndon;Lansing;81;1
+185;Bill;Olympia;99;1
+186;Abraham;Topeka;59;1
+187;Theodore;Springfield;88;1
+188;Lyndon;Albany;75;1
+189;Warren;Concord;36;1
+190;Jimmy;Charleston;56;1
+191;John;Hartford;90;1
+192;Rutherford;Frankfort;88;1
+193;Jimmy;Baton Rouge;60;1
+194;Ronald;Richmond;75;1
+195;Herbert;Lincoln;26;1
+196;Franklin;Tallahassee;3;1
+197;Chester;Pierre;86;1
+198;Bill;Frankfort;73;1
+199;Theodore;Providence;98;1
+200;Thomas;Jackson;63;1
+201;John;Trenton;80;1
+202;Warren;Madison;52;1
+203;Andrew;Olympia;40;1
+204;Franklin;Olympia;1;1
+205;George;Austin;96;1
+206;William;Nashville;29;1
+207;Harry;Hartford;42;1
+208;Ulysses;Salem;100;1
+209;Warren;Juneau;48;1
+210;Warren;Salem;16;1
+211;James;Des Moines;11;1
+212;Millard;Charleston;37;1
+213;Ulysses;Madison;6;1
+214;Richard;Olympia;84;1
+215;Harry;Madison;99;1
+216;Richard;Tallahassee;23;1
+217;Gerald;Charleston;32;1
+218;Andrew;Columbus;2;1
+219;Andrew;Augusta;87;1
+220;Bill;Oklahoma City;2;1
+221;Herbert;Indianapolis;53;1
+222;Jimmy;Dover;28;1
+223;George;Boise;17;1
+224;John;Lansing;7;1
+225;Dwight;Helena;34;1
+226;Woodrow;Pierre;29;1
+227;Gerald;Pierre;17;1
+228;James;Jackson;83;1
+229;Ronald;Concord;13;1
+230;Grover;Salt Lake City;21;1
+231;Thomas;Phoenix;59;1
+232;Benjamin;Helena;58;1
+233;Zachary;Augusta;16;1
+234;Lyndon;Boise;96;1
+235;James;Montpelier;92;1
+236;Warren;Saint Paul;39;1
+237;Andrew;Harrisburg;30;1
+238;Richard;Cheyenne;10;1
+239;John;Concord;70;1
+240;John;Helena;88;1
+241;Richard;Little Rock;64;1
+242;Richard;Little Rock;22;1
+243;Theodore;Raleigh;88;1
+244;Richard;Montgomery;30;1
+245;Harry;Baton Rouge;48;1
+246;Gerald;Raleigh;31;1
+247;Warren;Atlanta;0;1
+248;Ulysses;Tallahassee;12;1
+249;Calvin;Boston;1;1
+250;Herbert;Saint Paul;91;1
+251;Jimmy;Topeka;84;1
+252;James;Sacramento;97;1
+253;Rutherford;Boston;78;1
+254;Herbert;Dover;19;1
+255;Theodore;Trenton;39;1
+256;James;Sacramento;29;1
+257;Martin;Carson City;58;1
+258;John;Augusta;69;1
+259;Ronald;Trenton;42;1
+260;Theodore;Annapolis;36;1
+261;Andrew;Pierre;13;1
+262;Franklin;Salem;10;1
+263;Dwight;Charleston;89;1
+264;Rutherford;Topeka;81;1
+265;Martin;Raleigh;71;1
+266;Grover;Santa Fe;48;1
+267;Jimmy;Salt Lake City;13;1
+268;Woodrow;Des Moines;40;1
+269;Herbert;Madison;0;1
+270;Theodore;Lincoln;98;1
+271;Gerald;Denver;67;1
+272;George;Juneau;79;1
+273;Andrew;Denver;9;1
+274;Woodrow;Nashville;98;1
+275;Calvin;Austin;26;1
+276;Martin;Austin;26;1
+277;Franklin;Pierre;31;1
+278;Woodrow;Lincoln;31;1
+279;Harry;Bismarck;17;1
+280;Millard;Helena;88;1
+281;Herbert;Denver;82;1
+282;Herbert;Montgomery;8;1
+283;Richard;Trenton;6;1
+284;Theodore;Montgomery;61;1
+285;Martin;Bismarck;51;1
+286;John;Little Rock;4;1
+287;John;Trenton;30;1
+288;Woodrow;Oklahoma City;48;1
+289;Andrew;Columbus;56;1
+290;Ulysses;Charleston;41;1
+291;Lyndon;Carson City;82;1
+292;Thomas;Richmond;87;1
+293;Millard;Baton Rouge;17;1
+294;Warren;Tallahassee;36;1
+295;Thomas;Santa Fe;32;1
+296;Rutherford;Juneau;73;1
+297;Theodore;Baton Rouge;39;1
+298;Theodore;Boise;26;1
+299;Martin;Boston;21;1
+300;Thomas;Albany;6;1
+301;Gerald;Boise;50;1
+302;Woodrow;Harrisburg;90;1
+303;Richard;Trenton;38;1
+304;Benjamin;Tallahassee;35;1
+305;Harry;Baton Rouge;21;1
+306;Ronald;Hartford;6;1
+307;Andrew;Oklahoma City;82;1
+308;Rutherford;Indianapolis;78;1
+309;Ronald;Lincoln;82;1
+310;Martin;Atlanta;59;1
+311;Ulysses;Bismarck;44;1
+312;Chester;Cheyenne;52;1
+313;Herbert;Atlanta;83;1
+314;Benjamin;Montgomery;72;1
+315;Lyndon;Jackson;4;1
+316;Martin;Albany;70;1
+317;Millard;Montpelier;57;1
+318;Gerald;Jefferson City;21;1
+319;Gerald;Albany;10;1
+320;John;Frankfort;26;1
+321;Harry;Dover;24;1
+322;Warren;Little Rock;3;1
+323;Ronald;Augusta;71;1
+324;Ulysses;Salt Lake City;25;1
+325;Bill;Springfield;28;1
+326;Franklin;Albany;67;1
+327;Benjamin;Lincoln;41;1
+328;Bill;Saint Paul;31;1
+329;Lyndon;Lincoln;22;1
+330;James;Columbus;70;1
+331;Martin;Baton Rouge;28;1
+332;Ronald;Columbus;51;1
+333;Millard;Montpelier;89;1
+334;Herbert;Santa Fe;51;1
+335;Theodore;Baton Rouge;6;1
+336;Chester;Concord;34;1
+337;Woodrow;Dover;69;1
+338;Millard;Sacramento;36;1
+339;William;Lincoln;76;1
+340;George;Baton Rouge;51;1
+341;Harry;Tallahassee;37;1
+342;Bill;Albany;28;1
+343;Harry;Helena;81;1
+344;Andrew;Dover;60;1
+345;George;Jefferson City;9;1
+346;Calvin;Nashville;57;1
+347;Jimmy;Trenton;51;1
+348;Millard;Juneau;53;1
+349;Herbert;Columbus;95;1
+350;Zachary;Tallahassee;100;1
+351;Harry;Columbia;77;1
+352;Gerald;Topeka;81;1
+353;Richard;Jefferson City;85;1
+354;Woodrow;Indianapolis;45;1
+355;Woodrow;Helena;40;1
+356;Abraham;Salem;34;1
+357;George;Salem;16;1
+358;Grover;Des Moines;0;1
+359;Abraham;Bismarck;41;1
+360;Jimmy;Honolulu;3;1
+361;Chester;Lincoln;35;1
+362;Rutherford;Juneau;76;1
+363;Richard;Albany;86;1
+364;Grover;Annapolis;9;1
+365;Millard;Dover;96;1
+366;Franklin;Bismarck;93;1
+367;John;Jackson;76;1
+368;Harry;Tallahassee;44;1
+369;William;Boston;66;1
+370;Harry;Springfield;58;1
+371;Woodrow;Charleston;94;1
+372;Chester;Honolulu;88;1
+373;Thomas;Providence;35;1
+374;Benjamin;Dover;1;1
+375;Martin;Cheyenne;34;1
+376;Ronald;Concord;74;1
+377;James;Concord;36;1
+378;Warren;Montpelier;92;1
+379;Benjamin;Dover;76;1
+380;Bill;Raleigh;99;1
+381;Benjamin;Nashville;53;1
+382;Harry;Richmond;96;1
+383;Grover;Pierre;81;1
+384;James;Springfield;51;1
+385;Woodrow;Columbus;51;1
+386;Dwight;Annapolis;98;1
+387;Chester;Concord;74;1
+388;Andrew;Indianapolis;72;1
+389;Lyndon;Pierre;45;1
+390;Richard;Concord;100;1
+391;William;Lansing;97;1
+392;Zachary;Hartford;26;1
+393;Calvin;Lansing;40;1
+394;Richard;Frankfort;55;1
+395;Thomas;Honolulu;47;1
+396;Andrew;Frankfort;53;1
+397;Benjamin;Carson City;54;1
+398;George;Montpelier;78;1
+399;Theodore;Annapolis;12;1
+400;Abraham;Lincoln;100;1
+401;Thomas;Boise;41;1
+402;John;Helena;56;1
+403;Herbert;Salem;94;1
+404;George;Providence;22;1
+405;Calvin;Annapolis;19;1
+406;William;Juneau;59;1
+407;Richard;Boston;99;1
+408;Dwight;Jackson;19;1
+409;Calvin;Springfield;18;1
+410;Gerald;Honolulu;15;1
+411;William;Augusta;13;1
+412;Dwight;Sacramento;28;1
+413;Jimmy;Oklahoma City;94;1
+414;Martin;Montpelier;96;1
+415;Chester;Des Moines;88;1
+416;Woodrow;Salt Lake City;12;1
+417;Calvin;Richmond;42;1
+418;Andrew;Atlanta;39;1
+419;Calvin;Boston;25;1
+420;Thomas;Atlanta;27;1
+421;Franklin;Hartford;96;1
+422;Ronald;Raleigh;87;1
+423;Theodore;Annapolis;60;1
+424;Benjamin;Salem;99;1
+425;Jimmy;Richmond;35;1
+426;Martin;Madison;7;1
+427;Rutherford;Jefferson City;60;1
+428;Richard;Concord;77;1
+429;William;Providence;93;1
+430;Ronald;Concord;49;1
+431;Gerald;Sacramento;69;1
+432;Lyndon;Providence;51;1
+433;Theodore;Salem;90;1
+434;Warren;Boise;81;1
+435;Franklin;Lincoln;74;1
+436;Bill;Bismarck;66;1
+437;Ronald;Boise;78;1
+438;Franklin;Montpelier;19;1
+439;Woodrow;Richmond;54;1
+440;Harry;Augusta;50;1
+441;Franklin;Concord;79;1
+442;Rutherford;Springfield;18;1
+443;William;Concord;95;1
+444;Calvin;Bismarck;78;1
+445;Andrew;Augusta;50;1
+446;James;Annapolis;21;1
+447;Zachary;Columbia;99;1
+448;Grover;Lincoln;44;1
+449;Grover;Richmond;22;1
+450;George;Albany;8;1
+451;Andrew;Nashville;82;1
+452;Martin;Jackson;18;1
+453;Andrew;Oklahoma City;3;1
+454;Martin;Bismarck;49;1
+455;Benjamin;Charleston;57;1
+456;Dwight;Hartford;60;1
+457;Calvin;Lansing;79;1
+458;Gerald;Charleston;12;1
+459;Harry;Concord;91;1
+460;Lyndon;Boise;35;1
+461;Theodore;Harrisburg;24;1
+462;Ronald;Albany;57;1
+463;Bill;Hartford;43;1
+464;Theodore;Boston;66;1
+465;Ulysses;Albany;15;1
+466;Theodore;Atlanta;37;1
+467;Jimmy;Raleigh;70;1
+468;Franklin;Jackson;49;1
+469;Millard;Richmond;88;1
+470;Andrew;Salem;61;1
+471;Zachary;Columbia;37;1
+472;Theodore;Carson City;17;1
+473;Warren;Honolulu;29;1
+474;Herbert;Topeka;41;1
+475;Dwight;Denver;84;1
+476;Grover;Little Rock;36;1
+477;Ulysses;Providence;20;1
+478;George;Salt Lake City;5;1
+479;John;Helena;32;1
+480;William;Pierre;6;1
+481;Gerald;Cheyenne;14;1
+482;Ulysses;Little Rock;99;1
+483;Martin;Annapolis;16;1
+484;William;Harrisburg;91;1
+485;Theodore;Trenton;56;1
+486;Martin;Montpelier;66;1
+487;Abraham;Cheyenne;5;1
+488;Warren;Columbia;11;1
+489;Woodrow;Denver;11;1
+490;Dwight;Boston;98;1
+491;Herbert;Trenton;28;1
+492;Martin;Lansing;15;1
+493;Ronald;Trenton;6;1
+494;Chester;Boise;100;1
+495;Theodore;Pierre;79;1
+496;Jimmy;Pierre;91;1
+497;Bill;Boston;26;1
+498;Herbert;Saint Paul;34;1
+499;Ulysses;Little Rock;24;1
+500;Zachary;Pierre;84;1
+501;Thomas;Frankfort;9;1
+502;Martin;Annapolis;94;1
+503;Jimmy;Charleston;24;1
+504;Richard;Oklahoma City;22;1
+505;Herbert;Oklahoma City;59;1
+506;Franklin;Bismarck;13;1
+507;Franklin;Denver;79;1
+508;Gerald;Carson City;94;1
+509;Ulysses;Oklahoma City;50;1
+510;Woodrow;Topeka;53;1
+511;John;Santa Fe;8;1
+512;Ronald;Tallahassee;57;1
+513;Gerald;Atlanta;0;1
+514;Richard;Carson City;11;1
+515;Benjamin;Denver;50;1
+516;Ronald;Trenton;25;1
+517;Millard;Baton Rouge;88;1
+518;John;Austin;9;1
+519;Bill;Lincoln;21;1
+520;Theodore;Austin;15;1
+521;John;Sacramento;7;1
+522;Ronald;Tallahassee;35;1
+523;Lyndon;Montgomery;69;1
+524;Grover;Springfield;58;1
+525;Chester;Charleston;24;1
+526;Martin;Boise;62;1
+527;Dwight;Montgomery;56;1
+528;Jimmy;Olympia;94;1
+529;John;Richmond;81;1
+530;Jimmy;Dover;37;1
+531;Gerald;Jefferson City;12;1
+532;Herbert;Frankfort;95;1
+533;Richard;Nashville;12;1
+534;Benjamin;Springfield;57;1
+535;Lyndon;Charleston;96;1
+536;Dwight;Pierre;33;1
+537;Rutherford;Springfield;53;1
+538;Jimmy;Olympia;20;1
+539;Jimmy;Phoenix;17;1
+540;Franklin;Hartford;36;1
+541;Benjamin;Nashville;38;1
+542;Dwight;Richmond;80;1
+543;Woodrow;Atlanta;74;1
+544;Theodore;Santa Fe;68;1
+545;Ronald;Phoenix;84;1
+546;Martin;Concord;16;1
+547;Woodrow;Annapolis;22;1
+548;Dwight;Juneau;29;1
+549;Dwight;Indianapolis;19;1
+550;Rutherford;Helena;0;1
+551;Richard;Des Moines;68;1
+552;Andrew;Pierre;89;1
+553;Richard;Dover;5;1
+554;Warren;Concord;3;1
+555;Dwight;Annapolis;5;1
+556;Bill;Oklahoma City;67;1
+557;Grover;Dover;94;1
+558;Thomas;Springfield;85;1
+559;Theodore;Albany;69;1
+560;Grover;Hartford;70;1
+561;Harry;Boise;17;1
+562;Herbert;Carson City;100;1
+563;Abraham;Carson City;42;1
+564;Millard;Baton Rouge;42;1
+565;John;Atlanta;13;1
+566;Ronald;Jackson;44;1
+567;Bill;Madison;91;1
+568;George;Phoenix;10;1
+569;Andrew;Salem;60;1
+570;Zachary;Bismarck;21;1
+571;Bill;Jefferson City;61;1
+572;Herbert;Baton Rouge;37;1
+573;Chester;Des Moines;19;1
+574;Woodrow;Baton Rouge;67;1
+575;James;Lansing;19;1
+576;Woodrow;Harrisburg;76;1
+577;Ronald;Dover;57;1
+578;Zachary;Santa Fe;95;1
+579;Andrew;Olympia;76;1
+580;Grover;Austin;95;1
+581;Franklin;Denver;45;1
+582;Martin;Cheyenne;13;1
+583;Millard;Boise;51;1
+584;George;Atlanta;84;1
+585;Gerald;Cheyenne;8;1
+586;Woodrow;Springfield;30;1
+587;Zachary;Richmond;23;1
+588;William;Richmond;18;1
+589;Harry;Sacramento;86;1
+590;Lyndon;Richmond;2;1
+591;Herbert;Charleston;83;1
+592;John;Augusta;3;1
+593;Benjamin;Hartford;63;1
+594;Rutherford;Boise;1;1
+595;Harry;Frankfort;85;1
+596;Gerald;Baton Rouge;15;1
+597;Calvin;Santa Fe;86;1
+598;Dwight;Trenton;23;1
+599;Abraham;Juneau;93;1
+600;John;Richmond;16;1
+601;Herbert;Charleston;37;1
+602;Andrew;Boston;50;1
+603;Calvin;Springfield;73;1
+604;Chester;Oklahoma City;48;1
+605;William;Oklahoma City;77;1
+606;Warren;Olympia;10;1
+607;Warren;Little Rock;64;1
+608;Franklin;Augusta;51;1
+609;George;Atlanta;60;1
+610;James;Trenton;28;1
+611;Warren;Dover;76;1
+612;Lyndon;Montpelier;81;1
+613;Richard;Cheyenne;37;1
+614;Grover;Lansing;88;1
+615;Dwight;Salt Lake City;7;1
+616;Theodore;Montpelier;17;1
+617;Franklin;Richmond;68;1
+618;Richard;Helena;100;1
+619;Gerald;Helena;72;1
+620;Martin;Trenton;6;1
+621;John;Honolulu;23;1
+622;Benjamin;Albany;55;1
+623;Jimmy;Juneau;34;1
+624;Rutherford;Jackson;4;1
+625;William;Columbia;36;1
+626;Ulysses;Nashville;68;1
+627;Martin;Madison;62;1
+628;John;Salt Lake City;69;1
+629;Bill;Richmond;38;1
+630;George;Harrisburg;9;1
+631;Grover;Phoenix;22;1
+632;Millard;Atlanta;51;1
+633;Herbert;Springfield;70;1
+634;Calvin;Topeka;99;1
+635;Rutherford;Des Moines;82;1
+636;James;Raleigh;96;1
+637;Ronald;Pierre;49;1
+638;Chester;Juneau;37;1
+639;Ulysses;Jackson;40;1
+640;Harry;Madison;74;1
+641;Abraham;Bismarck;17;1
+642;Ronald;Richmond;88;1
+643;Abraham;Little Rock;65;1
+644;Calvin;Frankfort;52;1
+645;James;Olympia;19;1
+646;Warren;Little Rock;97;1
+647;James;Boston;36;1
+648;Millard;Nashville;17;1
+649;Rutherford;Lincoln;25;1
+650;Millard;Denver;92;1
+651;Benjamin;Helena;99;1
+652;George;Albany;1;1
+653;Millard;Lansing;26;1
+654;Lyndon;Dover;38;1
+655;Andrew;Concord;80;1
+656;Bill;Hartford;29;1
+657;William;Hartford;6;1
+658;Gerald;Des Moines;12;1
+659;Calvin;Helena;77;1
+660;Woodrow;Baton Rouge;82;1
+661;Thomas;Indianapolis;8;1
+662;Andrew;Oklahoma City;16;1
+663;Bill;Frankfort;99;1
+664;Warren;Lansing;52;1
+665;Richard;Annapolis;49;1
+666;Harry;Charleston;78;1
+667;John;Columbus;87;1
+668;Richard;Springfield;48;1
+669;Millard;Providence;36;1
+670;Jimmy;Madison;0;1
+671;Jimmy;Juneau;9;1
+672;Warren;Saint Paul;63;1
+673;Jimmy;Baton Rouge;60;1
+674;George;Phoenix;100;1
+675;Andrew;Cheyenne;76;1
+676;Dwight;Nashville;56;1
+677;Gerald;Raleigh;25;1
+678;Warren;Santa Fe;20;1
+679;Ronald;Salt Lake City;26;1
+680;Andrew;Trenton;48;1
+681;Harry;Raleigh;86;1
+682;William;Bismarck;47;1
+683;James;Lansing;27;1
+684;Harry;Santa Fe;16;1
+685;Franklin;Boise;12;1
+686;Franklin;Annapolis;73;1
+687;Martin;Carson City;94;1
+688;Ulysses;Jackson;3;1
+689;James;Charleston;9;1
+690;Thomas;Juneau;26;1
+691;Lyndon;Jackson;47;1
+692;Andrew;Augusta;66;1
+693;William;Olympia;64;1
+694;Ulysses;Cheyenne;1;1
+695;Franklin;Santa Fe;61;1
+696;Ronald;Helena;26;1
+697;Herbert;Tallahassee;90;1
+698;William;Harrisburg;29;1
+699;James;Carson City;20;1
+700;Woodrow;Annapolis;78;1
+701;Chester;Little Rock;92;1
+702;Dwight;Augusta;80;1
+703;Jimmy;Providence;43;1
+704;James;Baton Rouge;38;1
+705;Ulysses;Hartford;31;1
+706;Millard;Concord;89;1
+707;Bill;Tallahassee;12;1
+708;Millard;Boise;58;1
+709;Rutherford;Pierre;38;1
+710;John;Augusta;41;1
+711;Rutherford;Saint Paul;47;1
+712;Millard;Albany;63;1
+713;Lyndon;Indianapolis;77;1
+714;Chester;Oklahoma City;1;1
+715;Warren;Phoenix;87;1
+716;Warren;Jackson;49;1
+717;William;Helena;52;1
+718;Bill;Charleston;50;1
+719;Warren;Atlanta;24;1
+720;George;Nashville;33;1
+721;Gerald;Denver;73;1
+722;Warren;Madison;65;1
+723;Franklin;Boston;95;1
+724;Chester;Providence;66;1
+725;Gerald;Denver;31;1
+726;Millard;Harrisburg;86;1
+727;Millard;Little Rock;34;1
+728;Calvin;Oklahoma City;31;1
+729;James;Boise;19;1
+730;Rutherford;Augusta;91;1
+731;Jimmy;Jackson;37;1
+732;Franklin;Austin;77;1
+733;Bill;Jefferson City;68;1
+734;Ulysses;Austin;32;1
+735;William;Helena;49;1
+736;Franklin;Lansing;84;1
+737;William;Austin;26;1
+738;Millard;Augusta;68;1
+739;Benjamin;Denver;59;1
+740;Richard;Montgomery;99;1
+741;Thomas;Austin;28;1
+742;Harry;Lincoln;43;1
+743;Jimmy;Carson City;18;1
+744;Gerald;Carson City;51;1
+745;Bill;Hartford;28;1
+746;John;Austin;55;1
+747;Lyndon;Albany;67;1
+748;Herbert;Jackson;81;1
+749;Millard;Trenton;43;1
+750;Zachary;Charleston;3;1
+751;Theodore;Salem;47;2
+752;George;Charleston;52;2
+753;Ulysses;Concord;71;2
+754;Dwight;Atlanta;99;2
+755;Rutherford;Tallahassee;72;2
+756;Lyndon;Des Moines;89;2
+757;Franklin;Harrisburg;88;2
+758;John;Providence;13;2
+759;Dwight;Sacramento;67;2
+760;Harry;Boise;46;2
+761;James;Sacramento;34;2
+762;Abraham;Saint Paul;43;2
+763;Millard;Augusta;17;2
+764;Theodore;Des Moines;7;2
+765;Jimmy;Hartford;96;2
+766;Ronald;Topeka;19;2
+767;Zachary;Topeka;24;2
+768;Gerald;Concord;3;2
+769;Martin;Concord;88;2
+770;William;Boston;41;2
+771;Ronald;Springfield;39;2
+772;Warren;Jefferson City;66;2
+773;Harry;Columbia;26;2
+774;Zachary;Boston;62;2
+775;Martin;Salt Lake City;12;2
+776;Franklin;Little Rock;99;2
+777;Martin;Madison;4;2
+778;Dwight;Charleston;47;2
+779;Andrew;Providence;48;2
+780;Theodore;Annapolis;54;2
+781;Lyndon;Columbus;18;2
+782;Harry;Frankfort;66;2
+783;Warren;Jackson;62;2
+784;Herbert;Dover;8;2
+785;James;Pierre;20;2
+786;William;Phoenix;72;2
+787;Andrew;Jackson;35;2
+788;Warren;Topeka;95;2
+789;Thomas;Salt Lake City;21;2
+790;John;Charleston;70;2
+791;Rutherford;Providence;84;2
+792;Harry;Boston;74;2
+793;William;Cheyenne;87;2
+794;Lyndon;Juneau;26;2
+795;Millard;Madison;38;2
+796;Harry;Phoenix;69;2
+797;Calvin;Boston;13;2
+798;William;Richmond;60;2
+799;Jimmy;Boise;54;2
+800;Dwight;Olympia;21;2
+801;Richard;Albany;8;2
+802;Richard;Concord;2;2
+803;George;Sacramento;95;2
+804;Bill;Harrisburg;55;2
+805;Lyndon;Lansing;39;2
+806;Calvin;Atlanta;97;2
+807;Franklin;Oklahoma City;96;2
+808;John;Topeka;65;2
+809;Benjamin;Richmond;67;2
+810;Gerald;Richmond;19;2
+811;Richard;Dover;15;2
+812;Gerald;Hartford;72;2
+813;John;Nashville;86;2
+814;Grover;Augusta;84;2
+815;Woodrow;Albany;20;2
+816;Theodore;Sacramento;92;2
+817;John;Nashville;81;2
+818;Abraham;Santa Fe;25;2
+819;Calvin;Charleston;6;2
+820;George;Salem;42;2
+821;Theodore;Baton Rouge;81;2
+822;Gerald;Albany;70;2
+823;Lyndon;Indianapolis;10;2
+824;Abraham;Columbus;1;2
+825;Abraham;Salt Lake City;21;2
+826;Grover;Indianapolis;65;2
+827;Richard;Denver;66;2
+828;Grover;Richmond;72;2
+829;Chester;Columbus;94;2
+830;George;Des Moines;38;2
+831;Martin;Salt Lake City;99;2
+832;Rutherford;Salt Lake City;34;2
+833;Jimmy;Augusta;45;2
+834;Thomas;Frankfort;49;2
+835;Franklin;Providence;100;2
+836;Chester;Providence;59;2
+837;Gerald;Columbia;97;2
+838;Grover;Atlanta;7;2
+839;Bill;Des Moines;48;2
+840;Martin;Denver;60;2
+841;Abraham;Baton Rouge;91;2
+842;John;Atlanta;14;2
+843;George;Tallahassee;32;2
+844;Grover;Nashville;13;2
+845;Franklin;Juneau;61;2
+846;Theodore;Albany;50;2
+847;George;Denver;38;2
+848;John;Nashville;63;2
+849;Richard;Santa Fe;55;2
+850;Thomas;Sacramento;94;2
+851;Jimmy;Carson City;96;2
+852;Grover;Austin;89;2
+853;John;Austin;52;2
+854;Chester;Helena;30;2
+855;Ulysses;Indianapolis;35;2
+856;Theodore;Denver;6;2
+857;Bill;Topeka;56;2
+858;Dwight;Montpelier;34;2
+859;James;Denver;71;2
+860;James;Nashville;62;2
+861;Jimmy;Providence;63;2
+862;James;Frankfort;23;2
+863;Calvin;Santa Fe;76;2
+864;Zachary;Topeka;55;2
+865;Gerald;Cheyenne;56;2
+866;Dwight;Columbia;60;2
+867;Bill;Topeka;97;2
+868;George;Carson City;71;2
+869;Franklin;Sacramento;73;2
+870;Millard;Hartford;90;2
+871;Herbert;Olympia;43;2
+872;Ronald;Salem;85;2
+873;Chester;Lincoln;9;2
+874;William;Columbus;69;2
+875;George;Columbia;15;2
+876;Chester;Concord;71;2
+877;Grover;Pierre;30;2
+878;Dwight;Trenton;62;2
+879;Theodore;Pierre;66;2
+880;John;Raleigh;37;2
+881;George;Providence;13;2
+882;Gerald;Charleston;66;2
+883;Harry;Atlanta;15;2
+884;James;Bismarck;25;2
+885;Bill;Cheyenne;64;2
+886;Zachary;Lincoln;87;2
+887;Millard;Little Rock;24;2
+888;Millard;Hartford;59;2
+889;Andrew;Santa Fe;48;2
+890;Gerald;Lincoln;9;2
+891;Jimmy;Juneau;72;2
+892;Grover;Albany;84;2
+893;Millard;Oklahoma City;74;2
+894;Rutherford;Nashville;31;2
+895;Benjamin;Bismarck;46;2
+896;Millard;Saint Paul;21;2
+897;Ulysses;Honolulu;61;2
+898;Millard;Tallahassee;59;2
+899;Dwight;Raleigh;42;2
+900;James;Honolulu;34;2
+901;Harry;Austin;56;2
+902;Lyndon;Harrisburg;12;2
+903;Rutherford;Columbia;75;2
+904;Benjamin;Pierre;58;2
+905;Andrew;Lansing;8;2
+906;Bill;Honolulu;28;2
+907;Richard;Frankfort;86;2
+908;Benjamin;Sacramento;21;2
+909;Theodore;Honolulu;65;2
+910;Grover;Honolulu;89;2
+911;Gerald;Springfield;24;2
+912;Woodrow;Annapolis;100;2
+913;Ronald;Montpelier;27;2
+914;Thomas;Columbia;0;2
+915;Lyndon;Albany;25;2
+916;James;Madison;83;2
+917;Ulysses;Boston;72;2
+918;Grover;Augusta;88;2
+919;Thomas;Pierre;87;2
+920;Herbert;Frankfort;51;2
+921;Jimmy;Frankfort;34;2
+922;John;Providence;57;2
+923;Herbert;Boston;8;2
+924;Zachary;Cheyenne;57;2
+925;William;Madison;25;2
+926;Abraham;Albany;99;2
+927;Franklin;Denver;43;2
+928;Ronald;Austin;27;2
+929;Dwight;Little Rock;21;2
+930;Millard;Bismarck;92;2
+931;Dwight;Springfield;31;2
+932;Andrew;Frankfort;49;2
+933;Dwight;Concord;16;2
+934;Gerald;Honolulu;64;2
+935;Thomas;Carson City;3;2
+936;Bill;Atlanta;89;2
+937;Thomas;Columbus;83;2
+938;William;Little Rock;8;2
+939;Ulysses;Honolulu;48;2
+940;Thomas;Concord;77;2
+941;Woodrow;Raleigh;5;2
+942;Martin;Bismarck;73;2
+943;Herbert;Hartford;69;2
+944;Calvin;Baton Rouge;17;2
+945;Martin;Augusta;47;2
+946;Lyndon;Richmond;81;2
+947;Dwight;Carson City;36;2
+948;Chester;Juneau;74;2
+949;Gerald;Lansing;35;2
+950;Ulysses;Boise;6;2
+951;Zachary;Columbus;30;2
+952;Ronald;Richmond;37;2
+953;John;Charleston;72;2
+954;Andrew;Nashville;79;2
+955;Harry;Saint Paul;84;2
+956;Martin;Providence;60;2
+957;Martin;Pierre;80;2
+958;James;Charleston;54;2
+959;James;Saint Paul;95;2
+960;Chester;Jackson;15;2
+961;Theodore;Atlanta;40;2
+962;Grover;Jefferson City;90;2
+963;Andrew;Annapolis;26;2
+964;Bill;Denver;9;2
+965;Lyndon;Columbus;31;2
+966;Dwight;Pierre;56;2
+967;Ronald;Baton Rouge;100;2
+968;Herbert;Jefferson City;74;2
+969;Richard;Columbus;34;2
+970;Theodore;Trenton;43;2
+971;Chester;Concord;52;2
+972;Chester;Boston;89;2
+973;Theodore;Oklahoma City;31;2
+974;Dwight;Salem;98;2
+975;Thomas;Lincoln;85;2
+976;James;Lincoln;52;2
+977;Ronald;Oklahoma City;80;2
+978;Herbert;Denver;90;2
+979;Lyndon;Richmond;74;2
+980;Herbert;Santa Fe;52;2
+981;Dwight;Nashville;62;2
+982;Millard;Indianapolis;17;2
+983;Chester;Lansing;78;2
+984;Grover;Columbia;43;2
+985;Rutherford;Jefferson City;83;2
+986;Warren;Richmond;58;2
+987;Thomas;Atlanta;69;2
+988;Ulysses;Little Rock;51;2
+989;Calvin;Harrisburg;71;2
+990;Woodrow;Atlanta;57;2
+991;Millard;Albany;74;2
+992;Woodrow;Oklahoma City;77;3
+993;Warren;Sacramento;9;3
+994;Harry;Madison;20;3
+995;Lyndon;Columbia;4;3
+996;Woodrow;Salt Lake City;47;3
+997;Gerald;Montpelier;27;3
+998;Thomas;Trenton;69;3
+999;Harry;Atlanta;18;3
