@@ -8,6 +8,8 @@ import com.etline.utils.ContextImplicits._
 import org.apache.spark.sql.DataFrame
 import org.apache.spark.sql.functions.col
 
+import scala.concurrent.Future
+
 object Loader {
   def load(tableToWrite: TableToWrite, taskConfig: Task, layer: String) = {
     val targetConf = taskConfig.target
@@ -17,24 +19,10 @@ object Loader {
       case None        => throw new Exception("connectionId not found")
     }
     val saveTo    = s"${connection.url}/$layer/${taskConfig.target.path}/${tableToWrite.targetName}"
-    val hwmDb = implicitly[HwmDataBaseImpl]
-    val watermark = hwmDb.getWatermark(tableToWrite.targetName)
-    watermark
-      .map {
-        case Some(value) =>
-          tableToWrite.df
-            .filter(col(tableToWrite.hwmColumnName) > value.waterMark)
-        case None => tableToWrite.df
-      }
-      .map {
-        _.write
-          .mode(taskConfig.saveMode)
-          .format(targetConf.format)
-          .save(saveTo)
-      }
-  }
 
-  def write(tableToWrite: TableToWrite) ={
-
+    Future.successful(tableToWrite.df.write
+      .mode(taskConfig.saveMode)
+      .format(targetConf.format)
+      .save(saveTo))
   }
 }

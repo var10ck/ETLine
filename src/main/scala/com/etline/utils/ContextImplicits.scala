@@ -18,9 +18,8 @@ object ContextImplicits {
 
   implicit lazy val sparkSession: SparkSession = SparkSession.builder()
     .config(new SparkConf().setAll(config.sparkSessionConf))
-//    .master("local[*]")
-//    .appName("ddddd")
     .getOrCreate()
+
 
   implicit lazy val connectionStore: ConnectionStore = ConnectionStore("testdata/connectionstestconf.json")
 
@@ -29,5 +28,8 @@ object ContextImplicits {
 //  implicit val waterMarkDateBase: DataBaseImpl = DataBaseImpl("postgres")
   implicit val waterMarkDateBase: HwmDataBaseImpl = HwmDataBaseImpl("h2")
   implicit val logsDb: DataBaseImpl = DataBaseImpl("h2")
+
+  val customListener = new CustomListener(logsDb)
+  sparkSession.sparkContext.addSparkListener(customListener)
 
 }
