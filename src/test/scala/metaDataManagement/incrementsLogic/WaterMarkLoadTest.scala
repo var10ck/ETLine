@@ -30,7 +30,7 @@ class WaterMarkLoadTest extends AsyncFlatSpec with Matchers {
     for {
       _ <- dataBase.dropTable
       _ <- dataBase.createTable()
-      df <- WaterMarkLoad.load(TableToWrite(df, "version", "table1"))
+      df <- WaterMarkLoad.makeIncrementalLoad(TableToWrite(df, "version", "table1"))
       newWaterMark <- dataBase.getWatermark("table1")
     } yield assert(df.count() == dfSize && newWaterMark.get.waterMark == 3)
 
@@ -48,11 +48,11 @@ class WaterMarkLoadTest extends AsyncFlatSpec with Matchers {
       _ <- dataBase.dropTable
       _ <- dataBase.createTable()
       tableName = "table1"
-      dataFrame <- WaterMarkLoad.load(TableToWrite(startedDf, "version", "table1"))
+      dataFrame <- WaterMarkLoad.makeIncrementalLoad(TableToWrite(startedDf, "version", "table1"))
       _ <- Future.successful(dataFrame.show())
       oldWatermark <- dataBase.getWatermark(tableName)
       _ <- Future.successful(println("old watermark" + oldWatermark))
-      nDf <- WaterMarkLoad.load(TableToWrite(df, "version", tableName))
+      nDf <- WaterMarkLoad.makeIncrementalLoad(TableToWrite(df, "version", tableName))
       _ <- Future.successful(nDf.show())
       newWaterMark <- dataBase.getWatermark("table1")
       _ <- Future.successful(println("new watermark" + newWaterMark))

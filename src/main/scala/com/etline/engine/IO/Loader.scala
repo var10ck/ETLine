@@ -11,18 +11,17 @@ import org.apache.spark.sql.functions.col
 import scala.concurrent.Future
 
 object Loader {
-  def load(tableToWrite: TableToWrite, taskConfig: Task, layer: String) = {
+  def load(tableToWrite: TableToWrite, taskConfig: Task, layer: String)(implicit connectionStore: ConnectionStore) = {
     val targetConf = taskConfig.target
-    val connStore = implicitly[ConnectionStore]
-    val connection = connStore.getHdfsConnection(targetConf.connectionId) match {
+    val connection = connectionStore.getHdfsConnection(targetConf.connectionId) match {
       case Some(value) => value
       case None        => throw new Exception("connectionId not found")
     }
     val saveTo    = s"${connection.url}/$layer/${taskConfig.target.path}/${tableToWrite.targetName}"
-
-    Future.successful(tableToWrite.df.write
+    tableToWrite.df.write
       .mode(taskConfig.saveMode)
       .format(targetConf.format)
-      .save(saveTo))
+      .save(saveTo)
+    Future.successful(saveTo)
   }
 }

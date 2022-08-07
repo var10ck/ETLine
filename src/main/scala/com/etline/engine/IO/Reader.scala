@@ -6,6 +6,8 @@ import com.etline.config.datatypes.connection
 import com.etline.engine.dataTypes.TableToWrite
 import org.apache.spark.sql.{DataFrame, SparkSession}
 
+import java.io.File
+
 object Reader {
   def readAll(task: Task)(implicit
       sparkSession: SparkSession,
@@ -15,6 +17,10 @@ object Reader {
       val conn: connection.DbConnection = getDbConnection(connectionId)
       val url                           = s"jdbc:${conn.driver}:${conn.host}/${conn.dbName}"
       tables.map { t =>
+        val targetName = t.targetName match {
+          case Some(value) => value
+          case None        => t.name
+        }
         TableToWrite(
           sparkSession.read
             .format("jdbc")
@@ -24,7 +30,7 @@ object Reader {
             .option("password", conn.password)
             .load(),
           t.hwmColumnName,
-          t.hwmColumnName
+          targetName
         )
       }
 
@@ -32,12 +38,16 @@ object Reader {
       val conn = getHdfsConnection(connectionId)
       files.map { f =>
         val url = s"${conn.url}/${f.path}"
+        val targetName = f.targetName match {
+          case Some(value) => value
+          case None        => new File(f.path).getName
+        }
         TableToWrite(
           sparkSession.read
             .options(f.readOptions)
             .csv(url),
           f.hwmColumnName,
-          f.hwmColumnName
+          targetName
         )
       }
   }

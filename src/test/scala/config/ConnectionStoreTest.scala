@@ -1,5 +1,6 @@
 package config
 
+import com.etline.config.ConnectionStore
 import org.scalatest.flatspec.AnyFlatSpec
 import org.scalatest.matchers.should.Matchers
 
@@ -29,7 +30,7 @@ class ConnectionStoreTest extends AnyFlatSpec with Matchers {
   ]
 }
         """
-    import com.etline.utils.ContextImplicits.connectionStore
+    val connectionStore = ConnectionStore("testdata/connectionstestconf.json")
     val connections = connectionStore.decodeJsonString(jsonString)
 
     connections.foreach(println)
