@@ -1,10 +1,11 @@
 package com.etline.metaDataManagement.IncrementsLogic
 
+import com.etline.utils.ContextImplicits._
 import slick.jdbc.PostgresProfile.api._
 
 import scala.concurrent.{ExecutionContext, Future}
 
-case class DataBaseImpl(config: String)(implicit val executionContext: ExecutionContext) extends DataBase[Future] {
+case class HwmDataBaseImpl(config: String)(implicit val executionContext: ExecutionContext) extends HwmDataBase[Future] {
 
   val db = Database.forConfig(config)
 
@@ -57,4 +58,10 @@ case class DataBaseImpl(config: String)(implicit val executionContext: Execution
       case None => Future.successful(0)
     }
 
+}
+
+object HwmDataBaseImpl{
+  implicit def implicitly(implicit hwmDataBaseImpl: HwmDataBaseImpl) = hwmDataBaseImpl
+
+  def apply(implicit hwmDataBaseImpl: HwmDataBaseImpl) = hwmDataBaseImpl
 }

@@ -2,7 +2,7 @@ package com.etline.metaDataManagement.IncrementsLogic
 
 import scala.language.higherKinds
 
-trait DataBase[F[_]] {
+trait HwmDataBase[F[_]] {
 
   /**
    * Создает таблицу

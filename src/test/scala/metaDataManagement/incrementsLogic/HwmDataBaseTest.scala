@@ -1,13 +1,13 @@
 package metaDataManagement.incrementsLogic
 
-import com.etline.metaDataManagement.IncrementsLogic.{DataBaseImpl, WaterMark, WaterMarksTable}
+import com.etline.metaDataManagement.IncrementsLogic.{HwmDataBaseImpl, WaterMark, WaterMarksTable}
 import slick.jdbc.PostgresProfile.api._
 import org.scalatest.flatspec.AsyncFlatSpec
 import org.scalatest.matchers.should.Matchers
 
-class DataBaseTest extends AsyncFlatSpec with Matchers {
+class HwmDataBaseTest extends AsyncFlatSpec with Matchers {
 
-  val dataBase: DataBaseImpl = DataBaseImpl("h2")
+  val dataBase: HwmDataBaseImpl = HwmDataBaseImpl("h2")
 
   val increments: TableQuery[WaterMarksTable] = TableQuery[WaterMarksTable]
 

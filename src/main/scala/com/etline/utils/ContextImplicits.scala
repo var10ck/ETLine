@@ -1,7 +1,7 @@
 package com.etline.utils
 
 import com.etline.config.{ConnectionStore, Parser}
-import com.etline.metaDataManagement.IncrementsLogic.DataBaseImpl
+import com.etline.metaDataManagement.IncrementsLogic.HwmDataBaseImpl
 import org.apache.spark.SparkConf
 import org.apache.spark.sql.SparkSession
 
@@ -26,6 +26,6 @@ object ContextImplicits {
   implicit val executionContext: ExecutionContextExecutor = ExecutionContext.fromExecutor(Executors.newCachedThreadPool)
 
 //  implicit val waterMarkDateBase: DataBaseImpl = DataBaseImpl("postgres")
-  implicit val waterMarkDateBase: DataBaseImpl = DataBaseImpl("h2")
+  implicit val waterMarkDateBase: HwmDataBaseImpl = HwmDataBaseImpl("h2")
 
 }
