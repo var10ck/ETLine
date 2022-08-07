@@ -49,10 +49,10 @@ case class DataBaseImpl(config: String)(implicit val executionContext: Execution
    * @param waterMark новое значение
    * @return единицу, если значение обновлено
    */
-  override def updateWaterMark(waterMark: WaterMark): Future[Int] =
+  override def updateWaterMark(waterMark: WaterMark, newWaterMark: Int): Future[Int] =
     getWatermark(waterMark.tableName) flatMap {
       case Some(value) => val oldVal = value.waterMark
-        val q = waterMarks.filter(_.forTable === waterMark.tableName).map(_.waterMark).update(oldVal + 1)
+        val q = waterMarks.filter(_.forTable === waterMark.tableName).map(_.waterMark).update(newWaterMark)
         db.run(q)
       case None => Future.successful(0)
     }

@@ -33,7 +33,7 @@ trait DataBase[F[_]] {
    * @param incrementData новое значение
    * @return единицу, если значение обновлено
    */
-  def updateWaterMark(incrementData: WaterMark): F[Int]
+  def updateWaterMark(incrementData: WaterMark, newWaterMark: Int): F[Int]
 
 
 }

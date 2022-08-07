@@ -54,7 +54,7 @@ class IncrementLoadTest extends AsyncFlatSpec with Matchers {
       _ <- Future.successful(nDf.show())
       newWaterMark <- dataBase.getWatermark("table1")
       _ <- Future.successful(println("new watermark" + newWaterMark))
-    } yield assert(nDf.count() == newDf.count() && newWaterMark.get.waterMark == 3)
+    } yield assert(nDf.count() == newDf.count() & newWaterMark.get.waterMark == 3)
 
   }
 
