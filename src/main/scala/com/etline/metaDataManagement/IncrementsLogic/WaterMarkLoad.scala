@@ -11,10 +11,10 @@ object IncrementLoad {
   def load(dataFrame: DataFrame, waterMarkField: String)(implicit
                                                          dataBase: HwmDataBaseImpl,
                                                          ec: ExecutionContext): Future[DataFrame] =
-    dataBase.getWatermark(waterMarkField) flatMap {
+    dataBase.getWatermark("table1") flatMap {
       case Some(value) => for {
         maxWaterMark <- Future.successful(dataFrame.agg(max(col(waterMarkField))).first().toSeq.head.toString.toInt)
-        _ <- dataBase.updateWaterMark(WaterMark("table1", maxWaterMark))
+        _ <- dataBase.updateWaterMark(WaterMark("table1", maxWaterMark), maxWaterMark)
         df <- Future.successful(dataFrame.where(col(waterMarkField) > value.waterMark))
       } yield df
       case None => for {
