@@ -1,6 +1,7 @@
 package metaDataManagement.incrementsLogic
 
-import com.etline.metaDataManagement.IncrementsLogic.{DataBaseImpl, IncrementLoad}
+import com.etline.engine.dataTypes.TableToWrite
+import com.etline.metaDataManagement.IncrementsLogic.{HwmDataBaseImpl, WaterMarkLoad}
 import org.apache.spark.sql.functions.col
 import org.apache.spark.sql.{DataFrame, SparkSession}
 import org.scalatest.flatspec.AsyncFlatSpec
@@ -8,9 +9,9 @@ import org.scalatest.matchers.should.Matchers
 
 import scala.concurrent.Future
 
-class IncrementLoadTest extends AsyncFlatSpec with Matchers {
+class WaterMarkLoadTest extends AsyncFlatSpec with Matchers {
 
-  implicit val dataBase: DataBaseImpl = DataBaseImpl("h2")
+  implicit val dataBase: HwmDataBaseImpl = HwmDataBaseImpl("h2")
   val sparkSession: SparkSession = SparkSession.builder().master("local[*]").getOrCreate()
 
   val df: DataFrame = sparkSession.read.options(Map("inferSchema" -> "true", "delimiter" -> ";", "header" -> "true"))
@@ -29,7 +30,7 @@ class IncrementLoadTest extends AsyncFlatSpec with Matchers {
     for {
       _ <- dataBase.dropTable
       _ <- dataBase.createTable()
-      df <- IncrementLoad.load(df, "version")
+      df <- WaterMarkLoad.load(TableToWrite(df, "version", "table1"))
       newWaterMark <- dataBase.getWatermark("table1")
     } yield assert(df.count() == dfSize && newWaterMark.get.waterMark == 3)
 
@@ -46,11 +47,12 @@ class IncrementLoadTest extends AsyncFlatSpec with Matchers {
     for {
       _ <- dataBase.dropTable
       _ <- dataBase.createTable()
-      dataFrame <- IncrementLoad.load(startedDf, "version")
+      tableName = "table1"
+      dataFrame <- WaterMarkLoad.load(TableToWrite(startedDf, "version", "table1"))
       _ <- Future.successful(dataFrame.show())
-      oldWatermark <- dataBase.getWatermark("table1")
+      oldWatermark <- dataBase.getWatermark(tableName)
       _ <- Future.successful(println("old watermark" + oldWatermark))
-      nDf <- IncrementLoad.load(df, "version")
+      nDf <- WaterMarkLoad.load(TableToWrite(df, "version", tableName))
       _ <- Future.successful(nDf.show())
       newWaterMark <- dataBase.getWatermark("table1")
       _ <- Future.successful(println("new watermark" + newWaterMark))

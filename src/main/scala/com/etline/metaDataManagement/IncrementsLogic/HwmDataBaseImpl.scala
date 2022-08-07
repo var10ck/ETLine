@@ -47,21 +47,17 @@ case class HwmDataBaseImpl(config: String)(implicit val executionContext: Execut
   /**
    * Обновление значения high water mark в таблице
    *
-   * @param waterMark новое значение
+   * @param newWaterMark новое значение
    * @return единицу, если значение обновлено
    */
-  override def updateWaterMark(waterMark: WaterMark, newWaterMark: Int): Future[Int] =
-    getWatermark(waterMark.tableName) flatMap {
+  override def updateWaterMark(tableName: String, newWaterMark: Int): Future[Int] =
+    getWatermark(tableName) flatMap {
       case Some(value) => val oldVal = value.waterMark
-        val q = waterMarks.filter(_.forTable === waterMark.tableName).map(_.waterMark).update(newWaterMark)
+        val q = waterMarks.filter(_.forTable === tableName)
+          .map(_.waterMark)
+          .update(newWaterMark)
         db.run(q)
       case None => Future.successful(0)
     }
 
-}
-
-object HwmDataBaseImpl{
-  implicit def implicitly(implicit hwmDataBaseImpl: HwmDataBaseImpl) = hwmDataBaseImpl
-
-  def apply(implicit hwmDataBaseImpl: HwmDataBaseImpl) = hwmDataBaseImpl
 }

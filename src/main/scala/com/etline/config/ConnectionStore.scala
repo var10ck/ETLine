@@ -11,7 +11,7 @@ import java.net.URI
 
 class ConnectionStore(pathToConfig: String) {
   // TODO: get path to json from args or app.conf
-  val connections: Connections = fromSource(pathToConfig) match {
+  lazy val connections: Connections = fromSource(pathToConfig) match {
     case Right(value) => value
     case Left(_) => throw new Exception("Cannot parse connections")
   }

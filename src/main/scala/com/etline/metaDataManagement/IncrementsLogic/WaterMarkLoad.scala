@@ -6,30 +6,25 @@ import org.apache.spark.sql.functions.{col, max}
 
 import scala.concurrent.{ExecutionContext, Future}
 
-object IncrementLoad {
+object WaterMarkLoad {
 
-  def load(dataFrame: DataFrame, waterMarkField: String)(implicit
+  def load(table: TableToWrite)(implicit
                                                          dataBase: HwmDataBaseImpl,
-                                                         ec: ExecutionContext): Future[DataFrame] =
-    dataBase.getWatermark("table1") flatMap {
+                                                         ec: ExecutionContext): Future[DataFrame] = {
+    val dataFrame = table.df
+    val waterMarkField = table.hwmColumnName
+    val tableName = table.targetName
+    dataBase.getWatermark(tableName) flatMap {
       case Some(value) => for {
         maxWaterMark <- Future.successful(dataFrame.agg(max(col(waterMarkField))).first().toSeq.head.toString.toInt)
-        _ <- dataBase.updateWaterMark(WaterMark("table1", maxWaterMark), maxWaterMark)
+        _ <- dataBase.updateWaterMark(tableName, maxWaterMark)
         df <- Future.successful(dataFrame.where(col(waterMarkField) > value.waterMark))
       } yield df
       case None => for {
         maxWaterMark <- Future.successful(dataFrame.agg(max(col(waterMarkField))).first().toSeq.head.toString.toInt)
-        _ <- dataBase.insert(WaterMark("table1", maxWaterMark))
+        _ <- dataBase.insert(WaterMark(tableName, maxWaterMark))
         df <- Future.successful(dataFrame)
       } yield df
-    }
-
-  def load(
-      table: TableToWrite
-  )(implicit dataBase: HwmDataBaseImpl, ec: ExecutionContext): Future[DataFrame] = {
-    dataBase.getWatermark(table.hwmColumnName) map {
-      case Some(value) => table.df.where(col(table.hwmColumnName) > value.waterMark)
-      case None        => table.df
     }
   }
 }

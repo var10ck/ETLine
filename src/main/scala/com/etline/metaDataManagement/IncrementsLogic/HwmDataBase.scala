@@ -30,10 +30,10 @@ trait HwmDataBase[F[_]] {
   /**
    * Обновление значения инкремента в таблице
    *
-   * @param incrementData новое значение
+   * @param newWaterMark новое значение
    * @return единицу, если значение обновлено
    */
-  def updateWaterMark(incrementData: WaterMark, newWaterMark: Int): F[Int]
+  def updateWaterMark(tableName: String, newWaterMark: Int): F[Int]
 
 
 }
