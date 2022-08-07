@@ -2,7 +2,7 @@ package com.etline.metaDataManagement.IncrementsLogic
 
 import scala.language.higherKinds
 
-trait DataBase[F[_]] {
+trait HwmDataBase[F[_]] {
 
   /**
    * Создает таблицу
@@ -25,15 +25,15 @@ trait DataBase[F[_]] {
    * @param tableName название таблицы
    * @return опциональное значение инкремента
    */
-  def getIncrement(tableName: String): F[Option[WaterMark]]
+  def getWatermark(tableName: String): F[Option[WaterMark]]
 
   /**
    * Обновление значения инкремента в таблице
    *
-   * @param incrementData новое значение
+   * @param newWaterMark новое значение
    * @return единицу, если значение обновлено
    */
-  def updateIncrement(incrementData: WaterMark): F[Int]
+  def updateWaterMark(tableName: String, newWaterMark: Int): F[Int]
 
 
 }

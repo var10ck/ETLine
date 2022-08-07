@@ -1,13 +1,13 @@
 package metaDataManagement.incrementsLogic
 
-import com.etline.metaDataManagement.IncrementsLogic.{DataBaseImpl, WaterMark, WaterMarksTable}
+import com.etline.metaDataManagement.IncrementsLogic.{HwmDataBaseImpl, WaterMark, WaterMarksTable}
 import slick.jdbc.PostgresProfile.api._
 import org.scalatest.flatspec.AsyncFlatSpec
 import org.scalatest.matchers.should.Matchers
 
-class DataBaseTest extends AsyncFlatSpec with Matchers {
+class HwmDataBaseTest extends AsyncFlatSpec with Matchers {
 
-  val dataBase: DataBaseImpl = DataBaseImpl("h2")
+  val dataBase: HwmDataBaseImpl = HwmDataBaseImpl("h2")
 
   val increments: TableQuery[WaterMarksTable] = TableQuery[WaterMarksTable]
 
@@ -48,17 +48,18 @@ class DataBaseTest extends AsyncFlatSpec with Matchers {
 
     val future = for {
       _ <- dataBase.insert(WaterMark("table", 1))
-      result <- dataBase.updateIncrement(WaterMark("table", 2))
+      result <- dataBase.updateWaterMark("table", 2)
+      watermark <- dataBase.getWatermark("table")
       _ <- dataBase.db.run(query.result)
-    } yield result
-    future.map(value => assert(value == 1))
+    } yield (result, watermark)
+    future.map(value => assert(value._1 == 1 && value._2.get.waterMark == 2))
   }
 
   it should "return 0 because doesnt exist" in {
     dataBase.dropTable
     dataBase.createTable()
 
-    dataBase.updateIncrement(WaterMark("table", 2)).map(value => assert(value == 0))
+    dataBase.updateWaterMark("table", 2).map(value => assert(value == 0))
 
   }
 
@@ -68,10 +69,9 @@ class DataBaseTest extends AsyncFlatSpec with Matchers {
     dataBase.dropTable
     dataBase.createTable()
 
-
     val future = for {
       _ <- dataBase.insert(WaterMark("table", 1))
-      waterMark = dataBase.getIncrement("table")
+      waterMark = dataBase.getWatermark("table")
     } yield waterMark
 
     future.flatten.map(optWatermark => optWatermark.map(waterMark => assert(waterMark == WaterMark("table", 1, Some(1)))).get)

@@ -3,7 +3,7 @@ package config
 import org.scalatest.flatspec.AnyFlatSpec
 import org.scalatest.matchers.should.Matchers
 
-class ConnectionStore extends AnyFlatSpec with Matchers {
+class ConnectionStoreTest extends AnyFlatSpec with Matchers {
 
   behavior of "decode json string"
 

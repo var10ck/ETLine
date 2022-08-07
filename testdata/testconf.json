@@ -7,10 +7,11 @@
         "files": [
           {
             "path": "data4test.csv",
-            "hwmColumnName": "string",
+            "hwmColumnName": "version",
             "targetName": "testDataToLoad.csv",
             "readOptions": {
-              "delimiter":  ";"
+              "delimiter":  ";",
+              "header": "true"
             }
           }
         ]

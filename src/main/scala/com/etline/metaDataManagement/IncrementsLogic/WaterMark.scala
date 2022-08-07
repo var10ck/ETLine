@@ -8,10 +8,10 @@ class WaterMarksTable(tag: Tag) extends Table[WaterMark](tag, "IncrementTable") 
 
   def id = column[Int]("id", O.PrimaryKey, O.AutoInc)
 
-  def incrementForTable = column[String]("tableName")
+  def forTable = column[String]("tableName")
 
   def waterMark = column[Int]("watermark")
 
-  override def * = (incrementForTable, waterMark, id.?) <> (WaterMark.tupled, WaterMark.unapply)
+  override def * = (forTable, waterMark, id.?) <> (WaterMark.tupled, WaterMark.unapply)
 }
 
