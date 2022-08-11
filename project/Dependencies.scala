@@ -4,13 +4,13 @@ object Dependencies {
 
   object V {
     // Scala
-    val scala = "2.12.16"
+    val scala = "2.12.15"
 
     // read config
     val tsConfig = "1.4.2"
 
     //parse args
-    val scopt = "4.0.1"
+    val scopt = "4.1.0"
 
     //parse JSON
     val circe = "0.14.1"

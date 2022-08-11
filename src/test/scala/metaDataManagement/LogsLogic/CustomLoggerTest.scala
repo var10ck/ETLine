@@ -1,9 +1,8 @@
 package metaDataManagement.LogsLogic
 
 import com.etline.metaDataManagement.LogsLogic.{CustomListener, JobsTable, DataBaseImpl => LogsDataBaseImpl}
-import com.etline.utils.ContextImplicits.sparkSession
+
 import org.apache.log4j.LogManager
-//import com.etline.utils.ContextImplicits._
 import org.apache.spark.sql.SparkSession
 import org.scalatest.flatspec.AnyFlatSpecLike
 import org.scalatest.matchers.should.Matchers
@@ -18,7 +17,9 @@ class CustomLoggerTest extends AnyFlatSpecLike with Matchers{
 
   val increments: TableQuery[JobsTable] = TableQuery[JobsTable]
 
-  val spark: SparkSession = implicitly[SparkSession]
+  implicit val spark: SparkSession = SparkSession.builder().master("local[*]")
+    .appName("CustomLoggerTest")
+    .getOrCreate()
 
    val customListener = new CustomListener(logsDb)
     spark.sparkContext.addSparkListener(customListener)
@@ -27,7 +28,6 @@ class CustomLoggerTest extends AnyFlatSpecLike with Matchers{
 
   it should "write logs in database" in {
     val df = spark.read.csv("testdata/data4test.csv")
-    val logger = LogManager.getRootLogger
     spark.sparkContext.setLogLevel("ERROR")
     df.count()
     val logs = for{

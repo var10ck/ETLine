@@ -13,7 +13,7 @@ object EnrichmentData {
     .withColumn("CLOSED_EXTRACT_ID", lit((new ClosedExtractId).getId))
     .withColumnRenamed("UPDATE_DTTM", "VALID_FROM_DTTM")
     // TODO: tomporary solution
-    .withColumn("VALID_TO_DTTM", current_timestamp())
+    .withColumn("VALID_TO_DTTM", to_timestamp(lit("9999-12-31"), "yyyy-MM-dd"))
     .withColumn("DELETED_FLG", lit(new FlagDelete(false).state))
 
 }
